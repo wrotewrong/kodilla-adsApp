@@ -10,7 +10,7 @@ exports.getAll = async (req, res) => {
     if (allAds.length === 0) {
       res.json({ message: 'There are no ads in the database' });
     } else {
-      res.json({ allAds });
+      res.json(allAds);
     }
   } catch (err) {
     res.status(500).json({ message: err });
@@ -24,12 +24,12 @@ exports.add = async (req, res) => {
   try {
     const date = new Date();
     const newAd = new Ads({
-      title: req.body.title,
-      text: req.body.text,
+      title: req.fields.title,
+      text: req.fields.text,
       date: `${date.getDate()}-${date.getMonth() + 1}-${date.getFullYear()}`,
-      img: req.body.img,
-      price: req.body.price,
-      location: req.body.location,
+      img: req.fields.img,
+      price: req.fields.price,
+      location: req.fields.location,
       auth: 'placeholder',
     });
     await newAd.save();

@@ -1,9 +1,13 @@
 const express = require('express');
+const formidableMiddleware = require('express-formidable');
 const mongoose = require('mongoose');
 const adsRoutes = require('./routes/ads.routes');
 const authRoutes = require('./routes/auth.routes');
 
 const app = express();
+app.use(formidableMiddleware());
+
+app.use(express.json());
 
 app.use('/api/', adsRoutes);
 app.use('/auth/', authRoutes);
