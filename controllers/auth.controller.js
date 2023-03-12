@@ -1,5 +1,5 @@
 exports.getTest = (req, res) => {
-  res.send('Ads works');
+  res.send('Auth works');
 };
 exports.getUser = (req, res) => {};
 exports.register = (req, res) => {};
