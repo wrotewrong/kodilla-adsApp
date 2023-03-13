@@ -38,4 +38,25 @@ exports.register = async (req, res) => {
   }
 };
 
-exports.login = async (req, res) => {};
+exports.login = async (req, res) => {
+  try {
+    const { login, password } = req.fields;
+
+    if (login && password) {
+      const user = await Users.findOne({ login });
+      if (!user) {
+        res.status(400).json({ message: 'Login or password are incorrect' });
+      } else {
+        if (bcrypt.compareSync(password, user.password)) {
+          res.status(200).json({ message: 'login successful' });
+        } else {
+          res.status(400).json({ message: 'Login or password are incorrect' });
+        }
+      }
+    } else {
+      res.status(400).json({ message: 'Bad request' });
+    }
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+};
