@@ -30,7 +30,7 @@ exports.add = async (req, res) => {
       img: req.fields.img,
       price: req.fields.price,
       location: req.fields.location,
-      auth: 'placeholder',
+      user: 'placeholder',
     });
     await newAd.save();
     res.json({ newAd });
