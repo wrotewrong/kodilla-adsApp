@@ -1,7 +1,7 @@
 const express = require('express');
-const formidableMiddleware = require('express-formidable');
+// const formidableMiddleware = require('express-formidable');
 const path = require('path');
-const uniqid = require('uniqid');
+// const uniqid = require('uniqid');
 const mongoose = require('mongoose');
 const adsRoutes = require('./routes/ads.routes');
 const usersRoutes = require('./routes/users.routes');
@@ -12,17 +12,19 @@ const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
-app.use(
-  formidableMiddleware({ uploadDir: './public/uploads/' }, [
-    {
-      event: 'fileBegin',
-      action: (req, res, next, name, file) => {
-        const fileName = uniqid() + '.' + file.name.split('.')[1];
-        file.path = __dirname + '/public/uploads/photo_' + fileName;
-      },
-    },
-  ])
-);
+
+//FORMIDABLE MIDDLEWARE
+// app.use(
+//   formidableMiddleware({ uploadDir: './public/uploads/' }, [
+//     {
+//       event: 'fileBegin',
+//       action: (req, res, next, name, file) => {
+//         const fileName = uniqid() + '.' + file.name.split('.')[1];
+//         file.path = __dirname + '/public/uploads/photo_' + fileName;
+//       },
+//     },
+//   ])
+// );
 
 app.use(express.json());
 
