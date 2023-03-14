@@ -6,6 +6,8 @@ const mongoose = require('mongoose');
 const adsRoutes = require('./routes/ads.routes');
 const usersRoutes = require('./routes/users.routes');
 const authRoutes = require('./routes/auth.routes');
+const session = require('express-session');
+const MongoStore = require('connect-mongo');
 
 const app = express();
 app.use(
@@ -21,6 +23,14 @@ app.use(
 );
 
 app.use(express.json());
+app.use(
+  session({
+    secret: 'shi82la(sd@',
+    store: MongoStore.create({ mongoUrl: 'mongodb://localhost:27017/adsApp' }),
+    resave: false,
+    saveUninitialized: false,
+  })
+);
 
 app.use('/api/', adsRoutes);
 app.use('/api/', usersRoutes);
