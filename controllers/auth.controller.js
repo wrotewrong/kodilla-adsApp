@@ -1,6 +1,7 @@
 const Users = require('../models/users.model');
 const bcrypt = require('bcryptjs');
 const getImageFileType = require('../utils/getImageFileType');
+const removeImage = require('../utils/removeImage');
 
 //FORMIDABLE CONTROLLER
 // exports.register = async (req, res) => {
@@ -57,6 +58,7 @@ exports.register = async (req, res) => {
     ) {
       const userWithLogin = await Users.findOne({ login });
       if (userWithLogin) {
+        removeImage(avatar.path);
         res.status(409).json({ message: 'This login is already taken' });
         return;
       } else {
@@ -70,6 +72,7 @@ exports.register = async (req, res) => {
         res.status(201).json({ message: 'User created', newUser });
       }
     } else {
+      removeImage(avatar.path);
       res.status(400).json({ message: 'Bad request' });
     }
   } catch (err) {
@@ -79,7 +82,7 @@ exports.register = async (req, res) => {
 
 exports.login = async (req, res) => {
   try {
-    const { login, password } = req.fields;
+    const { login, password } = req.body;
 
     if (login && password) {
       const user = await Users.findOne({ login });

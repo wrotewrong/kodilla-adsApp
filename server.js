@@ -27,6 +27,7 @@ const app = express();
 // );
 
 app.use(express.json());
+app.use(express.urlencoded({ extends: false }));
 
 if (process.env.NODE_ENV !== 'production') {
   app.use(
@@ -49,15 +50,20 @@ app.use(
   })
 );
 
+app.use(express.static(path.join(__dirname, '/client/build')));
+app.use(express.static(path.join(__dirname, '/public')));
+
 app.use('/api/', adsRoutes);
 app.use('/api/', usersRoutes);
 app.use('/auth/', authRoutes);
 
-app.listen(8000, () => {
-  console.log('server is running on port 8000');
+const server = app.listen(process.env.PORT || 8000, () => {
+  console.log('Server is running...');
 });
 
-app.use(express.static(path.join(__dirname, '/public')));
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '/client/build/index.html'));
+});
 
 app.use((req, res) => {
   res.status(404).json({ message: 'Not found...' });
