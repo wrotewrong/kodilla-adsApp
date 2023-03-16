@@ -84,18 +84,71 @@ exports.add = async (req, res) => {
       await newAd.save();
       res.status(201).json({ message: 'Ad created', newAd });
     } else {
-      removeImage(img.filename);
+      if (img) {
+        removeImage(img.filename);
+      }
       res.status(400).json({ message: 'Bad request' });
     }
   } catch (err) {
-    if (err.name === 'ValidationError') {
+    if (req.file) {
       removeImage(req.file.filename);
     }
     res.status(500).json({ message: err.message });
   }
 };
 
-exports.edit = (req, res) => {};
+exports.edit = async (req, res) => {
+  try {
+    const { title, text, price, location } = req.body;
+    const img = req.file;
+    let editAd = await Ads.findById(req.params.id).populate('user');
+    const fileType = img ? await getImageFileType(img) : 'unknown';
+    const validExtensions = ['image/gif', 'image/jpg', 'image/png'];
+    const date = new Date();
+    const formatDate = `${String(date.getDate()).padStart(2, '0')}-${String(
+      date.getMonth() + 1
+    ).padStart(2, '0')}-${date.getFullYear()}`;
+
+    if (editAd) {
+      if (req.session.user.id !== String(editAd.user._id)) {
+        if (img) {
+          removeImage(img.filename);
+        }
+        res.status(400).json({ message: 'You can only edit your own ads' });
+        return;
+      } else {
+        editAd.title = title || editAd.title;
+        editAd.text = text || editAd.text;
+        editAd.price = price || editAd.price;
+        editAd.date = formatDate;
+        editAd.location = location || editAd.location;
+        if (img) {
+          if (validExtensions.includes(fileType)) {
+            removeImage(editAd.img);
+            editAd.img = img.filename;
+          } else {
+            removeImage(img.filename);
+            res.status(400).json({ message: 'Bad request' });
+            return;
+          }
+        }
+
+        await editAd.save();
+        res.status(200).json({ message: 'Ad updated', editAd });
+      }
+    } else {
+      if (img) {
+        removeImage(img.filename);
+      }
+      res.status(400).json({ message: 'Not found...' });
+    }
+  } catch (err) {
+    if (req.file) {
+      removeImage(req.file.filename);
+    }
+    res.status(500).json({ message: err.message });
+  }
+};
 
 exports.remove = async (req, res) => {
   try {
