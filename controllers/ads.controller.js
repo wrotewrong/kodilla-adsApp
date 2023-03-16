@@ -101,7 +101,7 @@ exports.edit = async (req, res) => {
   try {
     const { title, text, price, location } = req.body;
     const img = req.file;
-    let editAd = await Ads.findById(req.params.id).populate('user');
+    const editAd = await Ads.findById(req.params.id).populate('user');
     const fileType = img ? await getImageFileType(img) : 'unknown';
     const validExtensions = ['image/gif', 'image/jpg', 'image/png'];
     const date = new Date();
