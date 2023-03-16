@@ -43,7 +43,7 @@ exports.getByPhrase = async (req, res) => {
       path: 'user',
       select: '-password',
     });
-    if (!searchAd) {
+    if (searchAd.length === 0) {
       res.status(400).json({ message: 'Not found...' });
     } else {
       res.status(200).json(searchAd);
@@ -88,6 +88,9 @@ exports.add = async (req, res) => {
       res.status(400).json({ message: 'Bad request' });
     }
   } catch (err) {
+    if (err.name === 'ValidationError') {
+      removeImage(req.file.filename);
+    }
     res.status(500).json({ message: err.message });
   }
 };
