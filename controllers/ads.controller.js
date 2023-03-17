@@ -58,7 +58,7 @@ exports.add = async (req, res) => {
     const { title, text, price, location } = req.body;
     const img = req.file;
     const fileType = img ? await getImageFileType(img) : 'unknown';
-    const validExtensions = ['image/gif', 'image/jpg', 'image/png'];
+    const validExtensions = ['image/gif', 'image/jpeg', 'image/png'];
     const date = new Date();
     const formatDate = `${String(date.getDate()).padStart(2, '0')}-${String(
       date.getMonth() + 1

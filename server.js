@@ -38,13 +38,15 @@ if (process.env.NODE_ENV !== 'production') {
   );
 }
 
+let dbUri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@kodilla-adsapp.kqzdw7r.mongodb.net/adsApp?retryWrites=true&w=majority`;
+
 app.use(
   session({
     secret: process.env.SESSION_SECRET,
     cookie: {
       secure: process.env.NODE_ENV == 'production',
     },
-    store: MongoStore.create({ mongoUrl: 'mongodb://localhost:27017/adsApp' }),
+    store: MongoStore.create({ mongoUrl: dbUri }),
     resave: false,
     saveUninitialized: false,
   })
@@ -69,13 +71,10 @@ app.use((req, res) => {
   res.status(404).json({ message: 'Not found...' });
 });
 
-mongoose.connect(
-  `mongodb+srv://wrotewrong:${process.env.DB_PASS}@kodilla-adsapp.kqzdw7r.mongodb.net/?retryWrites=true&w=majority`,
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
-);
+mongoose.connect(dbUri, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 const db = mongoose.connection;
 

@@ -47,7 +47,7 @@ exports.register = async (req, res) => {
     const { login, password, phone } = req.body;
     const avatar = req.file;
     const fileType = avatar ? await getImageFileType(avatar) : 'unknown';
-    const validExtensions = ['image/gif', 'image/jpg', 'image/png'];
+    const validExtensions = ['image/gif', 'image/jpeg', 'image/png'];
 
     if (
       login &&
@@ -58,7 +58,9 @@ exports.register = async (req, res) => {
     ) {
       const userWithLogin = await Users.findOne({ login });
       if (userWithLogin) {
-        removeImage(avatar.path);
+        if (avatar) {
+          removeImage(avatar.filename);
+        }
         res.status(409).json({ message: 'This login is already taken' });
         return;
       } else {
@@ -72,10 +74,15 @@ exports.register = async (req, res) => {
         res.status(201).json({ message: 'User created', newUser });
       }
     } else {
-      removeImage(avatar.path);
+      if (avatar) {
+        removeImage(avatar.filename);
+      }
       res.status(400).json({ message: 'Bad request' });
     }
   } catch (err) {
+    if (req.file) {
+      removeImage(req.file.filename);
+    }
     res.status(500).json({ message: err.message });
   }
 };
