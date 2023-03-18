@@ -1,5 +1,31 @@
+import { Routes, Route } from 'react-router-dom';
+import Main from './components/layout/Main/Main';
+import Home from './components/pages/Home/Home';
+import NotFound from './components/pages/NotFound/NotFound';
+import RegisterPage from './components/pages/RegisterPage/RegisterPage';
+import LoginPage from './components/pages/LoginPage/LoginPage';
+import SearchPage from './components/pages/SearchPage/SearchPage';
+import SingleAdPage from './components/pages/SingleAd/SingleAdPage';
+import AddPage from './components/pages/AddPage.js/AddPage';
+import EditPage from './components/pages/EditPage/EditPage';
+
 function App() {
-  return <div className='App'>Works XD</div>;
+  return (
+    <div className='App'>
+      <Main>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/register' element={<RegisterPage />} />
+          <Route path='/login' element={<LoginPage />} />
+          <Route path='/ads/:id' element={<SingleAdPage />} />
+          <Route path='/ads/search/:searchPhrase' element={<SearchPage />} />
+          <Route path='/ads/add' element={<AddPage />} />
+          <Route path='/ads/edit/:id' element={<EditPage />} />
+          <Route path='*' element={<NotFound />} />
+        </Routes>
+      </Main>
+    </div>
+  );
 }
 
 export default App;
