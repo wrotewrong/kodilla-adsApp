@@ -58,7 +58,7 @@ app.use(express.static(path.join(__dirname, '/public')));
 
 app.use('/api/', adsRoutes);
 app.use('/api/', usersRoutes);
-app.use('/auth/', authRoutes);
+app.use('/api/', authRoutes);
 
 const server = app.listen(process.env.PORT || 8000, () => {
   console.log('Server is running...');

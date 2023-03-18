@@ -5,9 +5,13 @@ const authMiddleware = require('../utils/authMiddleware');
 const imageUpload = require('../utils/imageUpload');
 const multer = require('multer');
 
-router.post('/register', imageUpload.single('avatar'), authController.register);
-router.post('/login', multer().none(), authController.login);
-router.get('/user', authMiddleware, authController.getUser);
-router.delete('/logout', authMiddleware, authController.logout);
+router.post(
+  '/auth/register',
+  imageUpload.single('avatar'),
+  authController.register
+);
+router.post('/auth/login', multer().none(), authController.login);
+router.get('/auth/user', authMiddleware, authController.getUser);
+router.delete('/auth/logout', authMiddleware, authController.logout);
 
 module.exports = router;
