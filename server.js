@@ -29,6 +29,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extends: false }));
 
+// app.use(cors());
 if (process.env.NODE_ENV !== 'production') {
   app.use(
     cors({
