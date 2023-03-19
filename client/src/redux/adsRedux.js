@@ -1,5 +1,7 @@
 /* SELECTORS */
 
+export const getAds = ({ ads }) => ads.data;
+
 /* ACTIONS */
 
 // action name creator
@@ -26,11 +28,11 @@ const initialState = {
       },
     },
     {
-      _id: '641464567112563b6ce3922a',
+      _id: '641464567112563b6ce3922c',
       title: 'Black Tshirt',
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula…',
       date: '17-03-2023',
-      img: 'tshirtBlack-1679058006851.jpg',
+      img: 'avatarWoman-1679057949467.jpeg',
       price: 99,
       location: 'Warszawa',
       user: {
@@ -45,7 +47,7 @@ const initialState = {
       title: 'Black Tshirt',
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula…',
       date: '17-03-2023',
-      img: 'tshirtBlack-1679058006851.jpg',
+      img: 'avatarMan-1679057925546.jpg',
       price: 99,
       location: 'Warszawa',
       user: {
@@ -56,7 +58,7 @@ const initialState = {
       },
     },
     {
-      _id: '641464567112563b6ce3922a',
+      _id: '641464567112563b6ce3922b',
       title: 'Black Tshirt',
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula…',
       date: '17-03-2023',
