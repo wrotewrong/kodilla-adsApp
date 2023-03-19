@@ -46,7 +46,7 @@ const LoginForm = () => {
   };
 
   return (
-    <Form onSubmit={handleSubmit}>
+    <Form onSubmit={handleSubmit} className='col-12 col-sm-6  mx-auto'>
       {status === 'success' && (
         <Alert variant='success'>
           <Alert.Heading>Success!</Alert.Heading>
@@ -96,7 +96,9 @@ const LoginForm = () => {
         ></Form.Control>
       </Form.Group>
 
-      <Button type='submit'>Submit</Button>
+      <Button type='submit' className='mt-3'>
+        Submit
+      </Button>
     </Form>
   );
 };

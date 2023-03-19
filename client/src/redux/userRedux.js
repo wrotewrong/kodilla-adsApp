@@ -1,5 +1,7 @@
 /* SELECTORS */
 
+export const getUser = ({ user }) => user.login;
+
 /* ACTIONS */
 const createActionName = (actionName) => `app/users/${actionName}`;
 const LOG_IN = createActionName('LOG_IN');

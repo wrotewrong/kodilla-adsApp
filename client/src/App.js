@@ -10,10 +10,11 @@ import AddPage from './components/pages/AddPage.js/AddPage';
 import EditPage from './components/pages/EditPage/EditPage';
 import RemovePage from './components/pages/RemovePage/RemovePage';
 import LogoutPage from './components/pages/LogoutPage/LogoutPage';
+import Container from 'react-bootstrap/Container';
 
 function App() {
   return (
-    <div className='App'>
+    <Container>
       <Main>
         <Routes>
           <Route path='/' element={<Home />} />
@@ -28,7 +29,7 @@ function App() {
           <Route path='*' element={<NotFound />} />
         </Routes>
       </Main>
-    </div>
+    </Container>
   );
 }
 

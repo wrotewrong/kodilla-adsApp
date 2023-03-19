@@ -3,7 +3,7 @@ import LoginForm from '../../features/LoginForm/LoginForm';
 const LoginPage = () => {
   return (
     <>
-      <h1>Enter your login and password</h1>
+      <h1 className='col-12 col-sm-6  mx-auto'>Sign in</h1>
       <LoginForm />
     </>
   );
