@@ -1,11 +1,21 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const SearchForm = () => {
   const [search, setSearch] = useState('');
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (search) {
+      navigate(`/ad/search/${search}`);
+    } else {
+      return;
+    }
+  };
 
   return (
-    <form className='mb-4 row justify-content-end'>
+    <form className='mb-4 row justify-content-end' onSubmit={handleSubmit}>
       <div className='row'>
         <input
           type='text'
@@ -15,11 +25,9 @@ const SearchForm = () => {
           onChange={(e) => setSearch(e.target.value)}
         />
       </div>
-      <Link to={`/ad/search/${search}`}>
-        <button type='submit' className='btn btn-primary'>
-          Search
-        </button>
-      </Link>
+      <button type='submit' className='btn btn-primary'>
+        Search
+      </button>
     </form>
   );
 };

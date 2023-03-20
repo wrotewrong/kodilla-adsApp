@@ -15,8 +15,8 @@ const AdSummary = ({ _id, title, img, price, location }) => {
         <div className='card-body'>
           <h5 className='card-title text-center'>{title}</h5>
           <div className='row justify-content-around'>
-            <p className='card-text'>{location}</p>
-            <p className='card-text'>{price}</p>
+            <p className='card-text'> {location}</p>
+            <p className='card-text'>Price: {price}</p>
           </div>
         </div>
         <Link to={`/ad/${_id}`}>

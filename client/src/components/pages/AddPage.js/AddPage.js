@@ -1,5 +1,7 @@
+import AdForm from '../../features/AdForm/AdForm';
+
 const AddPage = () => {
-  return <h1>AddPage</h1>;
+  return <AdForm></AdForm>;
 };
 
 export default AddPage;

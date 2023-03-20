@@ -1,5 +1,13 @@
-const EditPage = () => {
-  return <h1>EditPage</h1>;
+import { useSelector } from 'react-redux';
+import { useParams } from 'react-router-dom';
+import { getAdById } from '../../../redux/adsRedux';
+import AdForm from '../../features/AdForm/AdForm';
+
+const AddPage = () => {
+  const { id } = useParams();
+  const ad = useSelector((state) => getAdById(state, id));
+
+  return <AdForm {...ad}></AdForm>;
 };
 
-export default EditPage;
+export default AddPage;

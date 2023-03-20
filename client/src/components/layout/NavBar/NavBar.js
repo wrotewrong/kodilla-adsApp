@@ -26,8 +26,13 @@ const NavBar = () => {
             </Nav.Link>
           )}
           {user && (
+            <Nav.Link as={NavLink} to='/ad/add'>
+              Add ad
+            </Nav.Link>
+          )}
+          {user && (
             <Nav.Link as={NavLink} to='/logout'>
-              Log out
+              Sign out
             </Nav.Link>
           )}
         </Nav>
