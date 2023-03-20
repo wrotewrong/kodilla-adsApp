@@ -10,8 +10,16 @@ export const getAdsByPhrase = ({ ads }, searchPhrase) =>
   );
 
 /* ACTIONS */
+const createActionName = (actionName) => `app/ads/${actionName}`;
+const ADD_AD = createActionName('ADD_AD');
+const EDIT_AD = createActionName('EDIT_AD');
+const DELETE_AD = createActionName('DELETE_AD');
 
-// action name creator
+/* ACTION CREATORS */
+
+export const addAd = (payload) => ({ payload, type: ADD_AD });
+export const editAd = (payload) => ({ payload, type: EDIT_AD });
+export const deleteAd = (payload) => ({ payload, type: DELETE_AD });
 
 /* THUNKS */
 
@@ -87,6 +95,20 @@ const initialState = {
 
 export default function reducer(statePart = initialState, action = {}) {
   switch (action.type) {
+    case ADD_AD:
+      return { ...statePart, data: [...statePart.data, action.payload] };
+    case EDIT_AD:
+      return {
+        ...statePart,
+        data: statePart.data.map((ad) =>
+          ad._id === action.payload.id ? { ...ad, ...action.payload } : ad
+        ),
+      };
+    case DELETE_AD:
+      return {
+        ...statePart,
+        data: statePart.data.filter((ad) => ad._id !== action.payload),
+      };
     default:
       return statePart;
   }

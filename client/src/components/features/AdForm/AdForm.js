@@ -1,16 +1,28 @@
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { addAd, editAd } from '../../../redux/adsRedux';
+import { useNavigate } from 'react-router-dom';
 
 const AddForm = (props) => {
-  const [title, setTitle] = useState(props.title);
-  const [text, setText] = useState(props.text);
-  const [location, setLocation] = useState(props.location);
-  const [price, setPrice] = useState(props.price);
-  const [img, setImg] = useState(props.img);
+  const [id, setId] = useState(props._id || '');
+  const [title, setTitle] = useState(props.title || '');
+  const [text, setText] = useState(props.text || '');
+  const [location, setLocation] = useState(props.location || '');
+  const [price, setPrice] = useState(props.price || '');
+  const [img, setImg] = useState(props.img || null);
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (props.action === 'add') {
+      dispatch(addAd({ title, text, location, price, img }));
+    } else if (props.action === 'edit') {
+      dispatch(editAd({ id, title, text, location, price, img }));
+      navigate('/');
+    }
   };
 
   return (
@@ -29,6 +41,7 @@ const AddForm = (props) => {
         <Form.Label>Text</Form.Label>
         <Form.Control
           as='textarea'
+          type='text'
           value={text}
           onChange={(e) => setText(e.target.value)}
           placeholder='Enter text'

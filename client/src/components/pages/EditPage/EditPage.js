@@ -7,7 +7,7 @@ const AddPage = () => {
   const { id } = useParams();
   const ad = useSelector((state) => getAdById(state, id));
 
-  return <AdForm {...ad}></AdForm>;
+  return <AdForm action='edit' {...ad}></AdForm>;
 };
 
 export default AddPage;
