@@ -2,7 +2,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addAd, editAd } from '../../../redux/adsRedux';
+import { addAdRequest, editAd } from '../../../redux/adsRedux';
 import { useNavigate } from 'react-router-dom';
 
 const AddForm = (props) => {
@@ -18,7 +18,8 @@ const AddForm = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (props.action === 'add') {
-      dispatch(addAd({ title, text, location, price, img }));
+      dispatch(addAdRequest({ title, text, location, price, img }));
+      navigate('/');
     } else if (props.action === 'edit') {
       dispatch(editAd({ id, title, text, location, price, img }));
       navigate('/');

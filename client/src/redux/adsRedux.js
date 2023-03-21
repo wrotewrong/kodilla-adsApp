@@ -1,3 +1,4 @@
+import { API_URL } from '../config';
 /* SELECTORS */
 
 export const getAds = ({ ads }) => ads.data;
@@ -14,80 +15,66 @@ const createActionName = (actionName) => `app/ads/${actionName}`;
 const ADD_AD = createActionName('ADD_AD');
 const EDIT_AD = createActionName('EDIT_AD');
 const DELETE_AD = createActionName('DELETE_AD');
+const LOAD_ADS = createActionName('LOAD_ADS');
 
 /* ACTION CREATORS */
 
 export const addAd = (payload) => ({ payload, type: ADD_AD });
 export const editAd = (payload) => ({ payload, type: EDIT_AD });
 export const deleteAd = (payload) => ({ payload, type: DELETE_AD });
+export const loadAds = (payload) => ({ payload, type: LOAD_ADS });
 
 /* THUNKS */
+
+export const loadAdsRequest = () => {
+  return async (dispatch) => {
+    fetch(`${API_URL}/ads`)
+      .then((res) => res.json())
+      .then((parsedResponse) => {
+        dispatch(loadAds(parsedResponse));
+      });
+  };
+};
+
+export const addAdRequest = (newAd) => {
+  const fd = new FormData();
+  fd.append('title', newAd.title);
+  fd.append('text', newAd.text);
+  fd.append('location', newAd.location);
+  fd.append('price', newAd.price);
+  fd.append('img', newAd.img);
+
+  return (dispatch) => {
+    const options = {
+      method: 'POST',
+      credentials: 'include',
+      body: fd,
+    };
+
+    fetch(`${API_URL}/ads`, options)
+      .then((res) => res.json())
+      .then((res) => {
+        if (res.status === 201) {
+          dispatch(addAd(res.body.newAd));
+        }
+      });
+  };
+};
+
+export const deleteAdRequest = (id) => {
+  return (dispatch) => {
+    const options = { method: 'DELETE', credentials: 'include' };
+
+    fetch(`${API_URL}/ads/${id}`, options).then((res) => {
+      dispatch(deleteAd(id));
+    });
+  };
+};
 
 /* INITIAL STATE */
 
 const initialState = {
-  data: [
-    {
-      _id: '6414642e7112563b6ce39229',
-      title: 'Orange Tshirt',
-      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id commodi amet eligendi ipsam illum, tempora reiciendis placeat velit similique repellat mollitia maiores sint ratione qui ipsa dicta quam optio cum? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula… Lorem ipsum dolor sit amet consectetur adipisicing elit. Id commodi amet eligendi ipsam illum, tempora reiciendis placeat velit similique repellat mollitia maiores sint ratione qui ipsa dicta quam optio cum?',
-      date: '17-03-2023',
-      img: 'tshirtOrange-1679057966828.jpg',
-      price: 149,
-      location: 'Łódź',
-      user: {
-        _id: '641464057112563b6ce39227',
-        login: 'RandomMan',
-        avatar: 'avatarMan-1679057925546.jpg',
-        phone: '666777999',
-      },
-    },
-    {
-      _id: '641464567112563b6ce3922c',
-      title: 'Black Tshirt',
-      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id commodi amet eligendi ipsam illum, tempora reiciendis placeat velit similique repellat mollitia maiores sint ratione qui ipsa dicta quam optio cum? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula… Lorem ipsum dolor sit amet consectetur adipisicing elit. Id commodi amet eligendi ipsam illum, tempora reiciendis placeat velit similique repellat mollitia maiores sint ratione qui ipsa dicta quam optio cum? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula…',
-      date: '17-03-2023',
-      img: 'avatarWoman-1679057949467.jpeg',
-      price: 99,
-      location: 'Warszawa',
-      user: {
-        _id: '641464057112563b6ce39227',
-        login: 'RandomMan',
-        avatar: 'avatarMan-1679057925546.jpg',
-        phone: '666777999',
-      },
-    },
-    {
-      _id: '641464567112563b6ce3922a',
-      title: 'Black Tshirt',
-      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id commodi amet eligendi ipsam illum, tempora reiciendis placeat velit similique repellat mollitia maiores sint ratione qui ipsa dicta quam optio cum? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula… Lorem ipsum dolor sit amet consectetur adipisicing elit. Id commodi amet eligendi ipsam illum, tempora reiciendis placeat velit similique repellat mollitia maiores sint ratione qui ipsa dicta quam optio cum? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula…',
-      date: '17-03-2023',
-      img: 'avatarMan-1679057925546.jpg',
-      price: 99,
-      location: 'Warszawa',
-      user: {
-        _id: '641464057112563b6ce39227',
-        login: 'RandomMan',
-        avatar: 'avatarMan-1679057925546.jpg',
-        phone: '666777999',
-      },
-    },
-    {
-      _id: '641464567112563b6ce3922b',
-      title: 'Black Tshirt',
-      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id commodi amet eligendi ipsam illum, tempora reiciendis placeat velit similique repellat mollitia maiores sint ratione qui ipsa dicta quam optio cum? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula… Lorem ipsum dolor sit amet consectetur adipisicing elit. Id commodi amet eligendi ipsam illum, tempora reiciendis placeat velit similique repellat mollitia maiores sint ratione qui ipsa dicta quam optio cum? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula…',
-      date: '17-03-2023',
-      img: 'tshirtBlack-1679058006851.jpg',
-      price: 99,
-      location: 'Warszawa',
-      user: {
-        _id: '641464057112563b6ce39227',
-        login: 'RandomMan',
-        avatar: 'avatarMan-1679057925546.jpg',
-        phone: '666777999',
-      },
-    },
-  ],
+  data: [],
   request: {},
 };
 
@@ -109,6 +96,8 @@ export default function reducer(statePart = initialState, action = {}) {
         ...statePart,
         data: statePart.data.filter((ad) => ad._id !== action.payload),
       };
+    case LOAD_ADS:
+      return { ...statePart, data: [...action.payload] };
     default:
       return statePart;
   }

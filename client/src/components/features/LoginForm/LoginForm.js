@@ -25,6 +25,7 @@ const LoginForm = () => {
         login,
         password,
       }),
+      credentials: 'include',
     };
 
     setStatus('loading');

@@ -1,6 +1,6 @@
 import { useNavigate, useParams } from 'react-router';
 import { useDispatch, useSelector } from 'react-redux';
-import { deleteAd, getAdById } from '../../../redux/adsRedux';
+import { deleteAdRequest, getAdById } from '../../../redux/adsRedux';
 import { IMGS_URL } from '../../../config';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
@@ -12,7 +12,7 @@ const SingleAdPage = () => {
   const navigate = useNavigate();
 
   const handleDelete = () => {
-    dispatch(deleteAd(id));
+    dispatch(deleteAdRequest(id));
     navigate('/');
   };
 
