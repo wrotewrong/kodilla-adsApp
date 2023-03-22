@@ -1,12 +1,22 @@
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
-import { useDispatch } from 'react-redux';
-import { addAdRequest, editAd } from '../../../redux/adsRedux';
-import { useNavigate } from 'react-router-dom';
+import {
+  useDispatch,
+  // useSelector
+} from 'react-redux';
+import {
+  addAd,
+  addAdRequest,
+  editAdRequest,
+  // getAdById,
+} from '../../../redux/adsRedux';
+import { useNavigate, useParams } from 'react-router-dom';
+// import { useEffect } from 'react';
 
 const AddForm = (props) => {
-  const [id, setId] = useState(props._id || '');
+  const { id } = useParams();
+  // const [id, setId] = useState(props._id || '');
   const [title, setTitle] = useState(props.title || '');
   const [text, setText] = useState(props.text || '');
   const [location, setLocation] = useState(props.location || '');
@@ -21,7 +31,7 @@ const AddForm = (props) => {
       dispatch(addAdRequest({ title, text, location, price, img }));
       navigate('/');
     } else if (props.action === 'edit') {
-      dispatch(editAd({ id, title, text, location, price, img }));
+      dispatch(editAdRequest({ title, text, location, price, img }, id));
       navigate('/');
     }
   };

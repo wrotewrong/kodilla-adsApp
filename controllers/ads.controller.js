@@ -117,6 +117,7 @@ exports.edit = async (req, res) => {
         res.status(400).json({ message: 'You can only edit your own ads' });
         return;
       } else {
+        editAd._id = req.params.id;
         editAd.title = title || editAd.title;
         editAd.text = text || editAd.text;
         editAd.price = price || editAd.price;

@@ -30,8 +30,8 @@ export const loadAdsRequest = () => {
   return async (dispatch) => {
     fetch(`${API_URL}/ads`)
       .then((res) => res.json())
-      .then((parsedResponse) => {
-        dispatch(loadAds(parsedResponse));
+      .then((res) => {
+        dispatch(loadAds(res));
       });
   };
 };
@@ -52,11 +52,40 @@ export const addAdRequest = (newAd) => {
     };
 
     fetch(`${API_URL}/ads`, options)
-      .then((res) => res.json())
       .then((res) => {
         if (res.status === 201) {
-          dispatch(addAd(res.body.newAd));
+          return res.json();
         }
+      })
+      .then((res) => {
+        dispatch(addAd(res.newAd));
+      });
+  };
+};
+
+export const editAdRequest = (edAd, id) => {
+  const fd = new FormData();
+  fd.append('title', edAd.title);
+  fd.append('text', edAd.text);
+  fd.append('location', edAd.location);
+  fd.append('price', edAd.price);
+  fd.append('img', edAd.img);
+
+  return (dispatch) => {
+    const options = {
+      method: 'PUT',
+      credentials: 'include',
+      body: fd,
+    };
+
+    fetch(`${API_URL}/ads/${id}`, options)
+      .then((res) => {
+        if (res.status === 200) {
+          return res.json();
+        }
+      })
+      .then((res) => {
+        dispatch(editAd(res.editAd));
       });
   };
 };
@@ -66,7 +95,9 @@ export const deleteAdRequest = (id) => {
     const options = { method: 'DELETE', credentials: 'include' };
 
     fetch(`${API_URL}/ads/${id}`, options).then((res) => {
-      dispatch(deleteAd(id));
+      if (res.status === 200) {
+        dispatch(deleteAd(id));
+      }
     });
   };
 };
@@ -88,7 +119,7 @@ export default function reducer(statePart = initialState, action = {}) {
       return {
         ...statePart,
         data: statePart.data.map((ad) =>
-          ad._id === action.payload.id ? { ...ad, ...action.payload } : ad
+          ad._id === action.payload._id ? { ...ad, ...action.payload } : ad
         ),
       };
     case DELETE_AD:
