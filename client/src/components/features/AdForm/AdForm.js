@@ -1,22 +1,12 @@
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
-import {
-  useDispatch,
-  // useSelector
-} from 'react-redux';
-import {
-  addAd,
-  addAdRequest,
-  editAdRequest,
-  // getAdById,
-} from '../../../redux/adsRedux';
+import { useDispatch } from 'react-redux';
+import { addAdRequest, editAdRequest } from '../../../redux/adsRedux';
 import { useNavigate, useParams } from 'react-router-dom';
-// import { useEffect } from 'react';
 
 const AddForm = (props) => {
   const { id } = useParams();
-  // const [id, setId] = useState(props._id || '');
   const [title, setTitle] = useState(props.title || '');
   const [text, setText] = useState(props.text || '');
   const [location, setLocation] = useState(props.location || '');
