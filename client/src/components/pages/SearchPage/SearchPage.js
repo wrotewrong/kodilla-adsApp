@@ -1,12 +1,18 @@
 import AdSummary from '../../features/AdSummary/AdSummary';
 import { useParams } from 'react-router';
-import { useSelector } from 'react-redux';
-import { getAdsByPhrase } from '../../../redux/adsRedux';
+import { useDispatch, useSelector } from 'react-redux';
+import { getAdsByPhrase, loadAdsRequest } from '../../../redux/adsRedux';
 import SearchForm from '../../features/SearchForm/SearchForm';
+import { useEffect } from 'react';
 
 const SearchPage = () => {
   const { searchPhrase } = useParams();
+  const dispatch = useDispatch();
   const search = useSelector((state) => getAdsByPhrase(state, searchPhrase));
+
+  useEffect(() => {
+    dispatch(loadAdsRequest(null, searchPhrase));
+  }, [dispatch, searchPhrase]);
 
   if (search.length === 0) {
     return <p>No match...</p>;

@@ -26,13 +26,27 @@ export const loadAds = (payload) => ({ payload, type: LOAD_ADS });
 
 /* THUNKS */
 
-export const loadAdsRequest = () => {
-  return async (dispatch) => {
-    fetch(`${API_URL}/ads`)
-      .then((res) => res.json())
-      .then((res) => {
-        dispatch(loadAds(res));
-      });
+export const loadAdsRequest = (id, phrase) => {
+  return (dispatch) => {
+    if (id) {
+      fetch(`${API_URL}/ads/${id}`)
+        .then((res) => res.json())
+        .then((res) => {
+          dispatch(loadAds(res));
+        });
+    } else if (phrase) {
+      fetch(`${API_URL}/ads/search/${phrase}`)
+        .then((res) => res.json())
+        .then((res) => {
+          dispatch(loadAds(res));
+        });
+    } else {
+      fetch(`${API_URL}/ads`)
+        .then((res) => res.json())
+        .then((res) => {
+          dispatch(loadAds(res));
+        });
+    }
   };
 };
 

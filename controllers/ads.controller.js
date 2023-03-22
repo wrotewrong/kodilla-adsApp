@@ -28,7 +28,7 @@ exports.getById = async (req, res) => {
     if (!adById) {
       res.status(400).json({ message: 'Not found...' });
     } else {
-      res.status(200).json(adById);
+      res.status(200).json([adById]);
     }
   } catch (err) {
     res.status(500).json({ message: err.message });
