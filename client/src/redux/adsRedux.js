@@ -10,12 +10,18 @@ export const getAdsByPhrase = ({ ads }, searchPhrase) =>
     ad.title.toLowerCase().includes(searchPhrase.toLowerCase())
   );
 
+export const getRequest = ({ ads }, name) => ads.requests[name];
+
 /* ACTIONS */
 const createActionName = (actionName) => `app/ads/${actionName}`;
-const ADD_AD = createActionName('ADD_AD');
-const EDIT_AD = createActionName('EDIT_AD');
-const DELETE_AD = createActionName('DELETE_AD');
-const LOAD_ADS = createActionName('LOAD_ADS');
+export const ADD_AD = createActionName('ADD_AD');
+export const EDIT_AD = createActionName('EDIT_AD');
+export const DELETE_AD = createActionName('DELETE_AD');
+export const LOAD_ADS = createActionName('LOAD_ADS');
+
+const START_REQUEST = createActionName('START_REQUEST');
+const END_REQUEST = createActionName('END_REQUEST');
+const ERROR_REQUEST = createActionName('ERROR_REQUEST');
 
 /* ACTION CREATORS */
 
@@ -24,29 +30,35 @@ export const editAd = (payload) => ({ payload, type: EDIT_AD });
 export const deleteAd = (payload) => ({ payload, type: DELETE_AD });
 export const loadAds = (payload) => ({ payload, type: LOAD_ADS });
 
+export const startRequest = (payload) => ({ payload, type: START_REQUEST });
+export const endRequest = (payload) => ({ payload, type: END_REQUEST });
+export const errorRequest = (payload) => ({ payload, type: ERROR_REQUEST });
+
 /* THUNKS */
 
 export const loadAdsRequest = (id, phrase) => {
-  return (dispatch) => {
+  return async (dispatch) => {
+    dispatch(startRequest({ name: LOAD_ADS }));
     if (id) {
-      fetch(`${API_URL}/ads/${id}`)
+      await fetch(`${API_URL}/ads/${id}`)
         .then((res) => res.json())
         .then((res) => {
           dispatch(loadAds(res));
         });
     } else if (phrase) {
-      fetch(`${API_URL}/ads/search/${phrase}`)
+      await fetch(`${API_URL}/ads/search/${phrase}`)
         .then((res) => res.json())
         .then((res) => {
           dispatch(loadAds(res));
         });
     } else {
-      fetch(`${API_URL}/ads`)
+      await fetch(`${API_URL}/ads`)
         .then((res) => res.json())
         .then((res) => {
           dispatch(loadAds(res));
         });
     }
+    dispatch(endRequest({ name: LOAD_ADS }));
   };
 };
 
@@ -120,7 +132,7 @@ export const deleteAdRequest = (id) => {
 
 const initialState = {
   data: [],
-  request: {},
+  requests: {},
 };
 
 /* REDUCER */
@@ -143,6 +155,34 @@ export default function reducer(statePart = initialState, action = {}) {
       };
     case LOAD_ADS:
       return { ...statePart, data: [...action.payload] };
+    case START_REQUEST:
+      return {
+        ...statePart,
+        requests: {
+          ...statePart.requests,
+          [action.payload.name]: { pending: true, error: null, success: false },
+        },
+      };
+    case END_REQUEST:
+      return {
+        ...statePart,
+        requests: {
+          ...statePart.requests,
+          [action.payload.name]: { pending: false, error: null, success: true },
+        },
+      };
+    case ERROR_REQUEST:
+      return {
+        ...statePart,
+        requests: {
+          ...statePart.requests,
+          [action.payload.name]: {
+            pending: false,
+            error: action.payload.message,
+            success: false,
+          },
+        },
+      };
     default:
       return statePart;
   }
