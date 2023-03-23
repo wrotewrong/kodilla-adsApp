@@ -22,6 +22,15 @@ const getImageFileType = async (image) => {
 
     switch (header) {
       case '89504e47':
+      case '4d4d4d4d':
+      case '52494646':
+      case '89504e46':
+      case '89504e48':
+      case '89504e44':
+      case '89504e5a':
+      case '89504e2d':
+      case '89504e43':
+      case '89504e52':
         return 'image/png';
       case '47494638':
         return 'image/gif';
@@ -30,6 +39,10 @@ const getImageFileType = async (image) => {
       case 'ffd8ffe2':
       case 'ffd8ffe3':
       case 'ffd8ffe8':
+      case 'ffd8ffdb':
+      case 'ffd8ffc0':
+      case 'ffd8ffc4':
+      case 'ffd8ffda':
         return 'image/jpeg';
       default:
         return 'unknown';
