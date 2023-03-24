@@ -2,6 +2,7 @@ const Users = require('../models/users.model');
 const bcrypt = require('bcryptjs');
 const getImageFileType = require('../utils/getImageFileType');
 const removeImage = require('../utils/removeImage');
+const { PASSWORD_MIN_LENGTH, PASSWORD_MAX_LENGTH } = require('../config');
 
 //FORMIDABLE CONTROLLER
 // exports.register = async (req, res) => {
@@ -54,7 +55,9 @@ exports.register = async (req, res) => {
       password &&
       phone &&
       avatar &&
-      validExtensions.includes(fileType)
+      validExtensions.includes(fileType) &&
+      password.length >= PASSWORD_MIN_LENGTH &&
+      password.length <= PASSWORD_MAX_LENGTH
     ) {
       const userWithLogin = await Users.findOne({ login });
       if (userWithLogin) {
@@ -64,6 +67,16 @@ exports.register = async (req, res) => {
         res.status(409).json({ message: 'This login is already taken' });
         return;
       } else {
+        // if (
+        //   password.length < PASSWORD_MIN_LENGTH ||
+        //   password.length > PASSWORD_MAX_LENGTH
+        // ) {
+        //   if (avatar) {
+        //     removeImage(avatar.filename);
+        //   }
+        //   res.status(400).json({ message: 'Password length is incorrect' });
+        //   return;
+        // }
         const newUser = new Users({
           login,
           password: await bcrypt.hash(password, 10),

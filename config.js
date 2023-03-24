@@ -1,0 +1,6 @@
+exports.LOGIN_MIN_LENGTH = 5;
+exports.LOGIN_MAX_LENGTH = 20;
+exports.PASSWORD_MIN_LENGTH = 5;
+exports.PASSWORD_MAX_LENGTH = 20;
+exports.PHONE_MIN_LENGTH = 8;
+exports.PHONE_MAX_LENGTH = 20;
