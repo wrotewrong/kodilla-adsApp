@@ -75,6 +75,7 @@ const AddForm = (props) => {
         <Form.Control
           type='file'
           onChange={(e) => setImg(e.target.files[0])}
+          accept='image/png, image/gif, image/jpeg'
         ></Form.Control>
       </Form.Group>
 

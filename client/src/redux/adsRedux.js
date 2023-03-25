@@ -49,7 +49,11 @@ export const loadAdsRequest = (id, phrase) => {
       await fetch(`${API_URL}/ads/search/${phrase}`)
         .then((res) => res.json())
         .then((res) => {
-          dispatch(loadAds(res));
+          if (res.empty?.length === 0) {
+            dispatch(loadAds(res.empty));
+          } else {
+            dispatch(loadAds(res));
+          }
         });
     } else {
       await fetch(`${API_URL}/ads`)

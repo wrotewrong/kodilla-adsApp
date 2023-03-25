@@ -1,0 +1,8 @@
+{"level":"error","message":"Error occurred: Ads validation failed: title: Path `title` (`as`) is shorter than the minimum allowed length (10)."}
+{"level":"error","message":"Error occurred: Ads validation failed: title: Path `title` (`gas`) is shorter than the minimum allowed length (10).","timestamp":"2023-03-25T19:12:26.757Z"}
+{"level":"error","message":"Error occurred: Ads validation failed: title: Path `title` (`gas`) is shorter than the minimum allowed length (10).","timestamp":"2023-03-25T19:12:55.488Z"}
+{"level":"error","message":"Error occurred: Ads validation failed: title: Path `title` (`gasas`) is shorter than the minimum allowed length (10).","timestamp":"2023-03-25T19:13:02.953Z"}
+{"level":"error","message":"Error occurred: ENOENT: no such file or directory, unlink 'C:\\Users\\a\\Desktop\\kurs kodilla JS\\zadania\\moduł 32 - warsztaty - backend\\zadanie 1 - adsApp/public/uploads/tshirtOrange-1679771497368.jpg'","timestamp":"2023-03-25T19:21:08.340Z"}
+{"level":"error","message":"Error occurred: Ads validation failed: title: Path `title` (`ASda`) is shorter than the minimum allowed length (10).","timestamp":"2023-03-25T19:26:24.723Z"}
+{"level":"error","message":"Error occurred: Ads validation failed: title: Path `title` (`Blac`) is shorter than the minimum allowed length (10).","timestamp":"2023-03-25T19:31:57.100Z"}
+{"level":"error","message":"Error occurred: editAd is not defined","timestamp":"2023-03-25T19:45:02.729Z"}

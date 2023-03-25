@@ -1,0 +1,126 @@
+{"level":"info","message":"Retrived all ads","service":"my-nodejs-app"}
+{"level":"info","message":"Retrived ad with id 641b5d64dc1d3d8dc4d224c0","service":"my-nodejs-app"}
+{"level":"info","message":"Retrived all ads"}
+{"level":"info","message":"Retrived ad with id 641464567112563b6ce3922a"}
+{"level":"info","message":"Retrived all ads"}
+{"level":"info","message":"Retrived ad containing phrase: undefined"}
+{"level":"warn","message":"There are no ads containing phrase: blak"}
+{"level":"warn","message":"There are no ads containing phrase: blak"}
+{"level":"info","message":"Retrived ad containing phrase: bl"}
+{"level":"info","message":"Retrived ad containing phrase: black"}
+{"level":"warn","message":"There are no ads containing phrase: ASXASX"}
+{"level":"warn","message":"There are no ads containing phrase: ASXASX"}
+{"level":"warn","message":"There are no ads containing phrase: ASXASX"}
+{"level":"warn","message":"There are no ads containing phrase: ASXASX"}
+{"level":"warn","message":"There are no ads containing phrase: ASXASX"}
+{"level":"warn","message":"There are no ads containing phrase: ASXASX"}
+{"level":"warn","message":"There are no ads containing phrase: ASXASX"}
+{"level":"warn","message":"There are no ads containing phrase: ASXASX"}
+{"level":"warn","message":"There are no ads containing phrase: ASXASX"}
+{"level":"warn","message":"There are no ads containing phrase: ASXASX"}
+{"level":"warn","message":"There are no ads containing phrase: ASXASX"}
+{"level":"warn","message":"There are no ads containing phrase: ASXASX"}
+{"level":"info","message":"Retrived all ads"}
+{"level":"info","message":"Retrived ad containing phrase: bl"}
+{"level":"info","message":"Retrived ad containing phrase: bl"}
+{"level":"info","message":"Retrived ad containing phrase: bl"}
+{"level":"info","message":"Retrived ad containing phrase: bl"}
+{"level":"info","message":"Retrived ad containing phrase: bl"}
+{"level":"info","message":"Retrived ad containing phrase: bl"}
+{"level":"warn","message":"There are no ads containing phrase: asxas"}
+{"level":"info","message":"Retrived all ads"}
+{"level":"info","message":"Retrived ad with id 641b5d64dc1d3d8dc4d224c0"}
+{"level":"info","message":"Retrived all ads"}
+{"level":"warn","message":"There are no ads containing phrase: AXasdfasfa"}
+{"level":"info","message":"Retrived all ads"}
+{"level":"info","message":"Retrived all ads"}
+{"level":"info","message":"Retrived ad with id 641cb2d7cc60dfa6e8571279"}
+{"level":"info","message":"Retrived all ads"}
+{"level":"info","message":"Retrived ad with id 641464567112563b6ce3922a"}
+{"level":"info","message":"Retrived all ads"}
+{"level":"info","message":"Retrived ad with id 641b5d64dc1d3d8dc4d224c0"}
+{"level":"info","message":"Retrived all ads"}
+{"level":"info","message":"Retrived all ads"}
+{"level":"warn","message":"Invalid request received"}
+{"level":"info","message":"Retrived all ads"}
+{"level":"info","message":"Retrived all ads"}
+{"level":"info","message":"Ad created with id: 641f42e3f0300a5b283adef2"}
+{"level":"error","message":"Error occurred: Ads validation failed: title: Path `title` (`as`) is shorter than the minimum allowed length (10)."}
+{"level":"info","message":"Retrived all ads"}
+{"level":"warn","message":"Invalid request received"}
+{"level":"info","message":"Retrived all ads"}
+{"level":"info","message":"Retrived ad with id 641f42e3f0300a5b283adef2","timestamp":"2023-03-25T19:07:43.266Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:09:14.968Z"}
+{"level":"warn","message":"You are not permitted to edit ad with id: 641464567112563b6ce3922a","timestamp":"2023-03-25T19:09:29.612Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:10:29.418Z"}
+{"level":"info","message":"Edited ad with id: 641dfe8e454977b484370cc1","timestamp":"2023-03-25T19:10:50.686Z"}
+{"level":"info","message":"Edited ad with id: 641dfe8e454977b484370cc1","timestamp":"2023-03-25T19:11:09.146Z"}
+{"level":"info","message":"Edited ad with id: 641dfe8e454977b484370cc1","timestamp":"2023-03-25T19:11:22.001Z"}
+{"level":"info","message":"Edited ad with id: 641dfe8e454977b484370cc1","timestamp":"2023-03-25T19:11:37.477Z"}
+{"level":"warn","message":"The ad with id: 641dfe8e454977b484370cc2 does not exist","timestamp":"2023-03-25T19:12:00.700Z"}
+{"level":"error","message":"Error occurred: Ads validation failed: title: Path `title` (`gas`) is shorter than the minimum allowed length (10).","timestamp":"2023-03-25T19:12:26.757Z"}
+{"level":"error","message":"Error occurred: Ads validation failed: title: Path `title` (`gas`) is shorter than the minimum allowed length (10).","timestamp":"2023-03-25T19:12:55.488Z"}
+{"level":"error","message":"Error occurred: Ads validation failed: title: Path `title` (`gasas`) is shorter than the minimum allowed length (10).","timestamp":"2023-03-25T19:13:02.953Z"}
+{"level":"info","message":"Edited ad with id: 641dfe8e454977b484370cc1","timestamp":"2023-03-25T19:13:10.228Z"}
+{"level":"warn","message":"The uploaded image has wrong extension","timestamp":"2023-03-25T19:16:53.228Z"}
+{"level":"warn","message":"Invalid request received","timestamp":"2023-03-25T19:18:27.493Z"}
+{"level":"warn","message":"Invalid request received","timestamp":"2023-03-25T19:19:12.114Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:20:09.372Z"}
+{"level":"info","message":"Retrived ad with id 641dfe8e454977b484370cc1","timestamp":"2023-03-25T19:20:16.365Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:20:21.468Z"}
+{"level":"info","message":"Retrived ad with id 641dfe8e454977b484370cc1","timestamp":"2023-03-25T19:20:25.603Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:20:37.799Z"}
+{"level":"error","message":"Error occurred: ENOENT: no such file or directory, unlink 'C:\\Users\\a\\Desktop\\kurs kodilla JS\\zadania\\moduł 32 - warsztaty - backend\\zadanie 1 - adsApp/public/uploads/tshirtOrange-1679771497368.jpg'","timestamp":"2023-03-25T19:21:08.340Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:22:44.541Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:22:53.085Z"}
+{"level":"warn","message":"Invalid request received","timestamp":"2023-03-25T19:23:14.477Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:23:14.515Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:23:37.347Z"}
+{"level":"info","message":"Ad created with id: 641f4a39036baf82d04dd9d4","timestamp":"2023-03-25T19:23:37.388Z"}
+{"level":"info","message":"Retrived ad with id 641f4a39036baf82d04dd9d4","timestamp":"2023-03-25T19:23:39.105Z"}
+{"level":"error","message":"Error occurred: Ads validation failed: title: Path `title` (`ASda`) is shorter than the minimum allowed length (10).","timestamp":"2023-03-25T19:26:24.723Z"}
+{"level":"info","message":"Edited ad with id: 641f4a39036baf82d04dd9d4","timestamp":"2023-03-25T19:26:39.663Z"}
+{"level":"info","message":"Edited ad with id: 641f4a39036baf82d04dd9d4","timestamp":"2023-03-25T19:26:44.101Z"}
+{"level":"info","message":"Edited ad with id: 641f4a39036baf82d04dd9d4","timestamp":"2023-03-25T19:26:44.617Z"}
+{"level":"info","message":"Edited ad with id: 641f4a39036baf82d04dd9d4","timestamp":"2023-03-25T19:26:54.142Z"}
+{"level":"info","message":"Edited ad with id: 641f4a39036baf82d04dd9d4","timestamp":"2023-03-25T19:26:54.658Z"}
+{"level":"info","message":"Edited ad with id: 641f4a39036baf82d04dd9d4","timestamp":"2023-03-25T19:26:54.856Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:26:58.298Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:27:02.610Z"}
+{"level":"info","message":"Retrived ad with id 641f4a39036baf82d04dd9d4","timestamp":"2023-03-25T19:27:03.925Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:27:08.032Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:27:12.154Z"}
+{"level":"info","message":"Retrived ad with id 641f4a39036baf82d04dd9d4","timestamp":"2023-03-25T19:27:14.353Z"}
+{"level":"info","message":"Edited ad with id: 641f4a39036baf82d04dd9d4","timestamp":"2023-03-25T19:27:19.696Z"}
+{"level":"info","message":"Edited ad with id: 641f4a39036baf82d04dd9d4","timestamp":"2023-03-25T19:27:25.686Z"}
+{"level":"info","message":"Edited ad with id: 641f4a39036baf82d04dd9d4","timestamp":"2023-03-25T19:27:42.299Z"}
+{"level":"info","message":"Edited ad with id: 641f4a39036baf82d04dd9d4","timestamp":"2023-03-25T19:27:52.241Z"}
+{"level":"info","message":"Edited ad with id: 641f4a39036baf82d04dd9d4","timestamp":"2023-03-25T19:28:10.987Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:28:22.447Z"}
+{"level":"info","message":"Edited ad with id: 641f4a39036baf82d04dd9d4","timestamp":"2023-03-25T19:28:34.421Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:28:46.321Z"}
+{"level":"warn","message":"The uploaded image has wrong extension","timestamp":"2023-03-25T19:29:06.099Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:29:24.129Z"}
+{"level":"info","message":"Edited ad with id: 641f4a39036baf82d04dd9d4","timestamp":"2023-03-25T19:29:36.967Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:29:40.181Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:31:34.832Z"}
+{"level":"info","message":"Retrived ad with id 641464567112563b6ce3922a","timestamp":"2023-03-25T19:31:36.954Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:31:44.102Z"}
+{"level":"info","message":"Edited ad with id: 641464567112563b6ce3922a","timestamp":"2023-03-25T19:31:44.405Z"}
+{"level":"info","message":"Retrived ad with id 641464567112563b6ce3922a","timestamp":"2023-03-25T19:31:45.804Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:31:57.065Z"}
+{"level":"error","message":"Error occurred: Ads validation failed: title: Path `title` (`Blac`) is shorter than the minimum allowed length (10).","timestamp":"2023-03-25T19:31:57.100Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:43:27.503Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:43:30.324Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:43:31.948Z"}
+{"level":"info","message":"Retrived ad with id 641464567112563b6ce3922a","timestamp":"2023-03-25T19:43:48.603Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:43:51.742Z"}
+{"level":"info","message":"Retrived ad with id 641f42e3f0300a5b283adef2","timestamp":"2023-03-25T19:43:55.420Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:43:58.246Z"}
+{"level":"info","message":"Deleted ad with id: 641f42e3f0300a5b283adef2","timestamp":"2023-03-25T19:43:58.321Z"}
+{"level":"info","message":"Retrived ad with id 641f4a39036baf82d04dd9d4","timestamp":"2023-03-25T19:44:03.463Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:44:05.579Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-25T19:44:47.414Z"}
+{"level":"error","message":"Error occurred: editAd is not defined","timestamp":"2023-03-25T19:45:02.729Z"}
+{"level":"warn","message":"You are not permitted to delete ad with id: 641cb2d7cc60dfa6e8571279","timestamp":"2023-03-25T19:45:45.291Z"}
+{"level":"warn","message":"The ad with id: 641cb2d7cc60dfa6e857127c does not exist","timestamp":"2023-03-25T19:46:10.954Z"}
