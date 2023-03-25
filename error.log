@@ -6,3 +6,99 @@
 {"level":"error","message":"Error occurred: Ads validation failed: title: Path `title` (`ASda`) is shorter than the minimum allowed length (10).","timestamp":"2023-03-25T19:26:24.723Z"}
 {"level":"error","message":"Error occurred: Ads validation failed: title: Path `title` (`Blac`) is shorter than the minimum allowed length (10).","timestamp":"2023-03-25T19:31:57.100Z"}
 {"level":"error","message":"Error occurred: editAd is not defined","timestamp":"2023-03-25T19:45:02.729Z"}
+{"level":"error","message":"Error occurred: Users validation failed: login: Path `login` (`d`) is shorter than the minimum allowed length (5).","timestamp":"2023-03-25T20:07:56.928Z"}
+{"level":"error","message":"Error occurred: req.body.hasOwnProperty is not a function","timestamp":"2023-03-25T20:48:55.493Z"}
+{"level":"error","message":"Error occurred: Object(...).hasOwnProperty is not a function","timestamp":"2023-03-25T20:49:21.058Z"}
+{"level":"error","message":"login is not provided","timestamp":"2023-03-25T20:51:27.996Z"}
+{"level":"error","message":"password is not provided","timestamp":"2023-03-25T20:51:28.000Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T20:51:28.001Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T20:51:28.001Z"}
+{"level":"error","message":"Error occurred: req.body.hasOwnProperty is not a function","timestamp":"2023-03-25T20:53:03.258Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T20:56:16.051Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T20:57:16.698Z"}
+{"level":"error","message":"login is not provided","timestamp":"2023-03-25T20:58:26.237Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T20:58:26.239Z"}
+{"level":"error","message":"login is not provided","timestamp":"2023-03-25T20:59:18.546Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T20:59:18.550Z"}
+{"level":"error","message":"login is not provided","timestamp":"2023-03-25T20:59:36.048Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T20:59:36.049Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T20:59:36.049Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T20:59:51.030Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:04:26.342Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:05:06.311Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:05:12.878Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T21:05:12.881Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:05:43.548Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T21:05:43.551Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:07:29.856Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T21:07:29.858Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:07:42.227Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T21:07:42.230Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:08:04.525Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T21:08:04.528Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:08:34.711Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T21:08:34.715Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:09:20.298Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T21:09:20.301Z"}
+{"level":"error","message":"Error occurred: inputs.contains is not a function","timestamp":"2023-03-25T21:11:06.575Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:11:23.312Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T21:11:23.315Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:12:14.188Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T21:12:14.190Z"}
+{"level":"error","message":"login is not provided","timestamp":"2023-03-25T21:12:25.700Z"}
+{"level":"error","message":"password is not provided","timestamp":"2023-03-25T21:12:25.703Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:12:25.705Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T21:12:25.706Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:12:42.604Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T21:12:42.606Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:13:02.022Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T21:13:02.025Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:15:04.882Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T21:15:04.886Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:15:32.133Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T21:15:32.136Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:16:30.494Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:16:44.191Z"}
+{"level":"error","message":"login is not provided","timestamp":"2023-03-25T21:17:52.795Z"}
+{"level":"error","message":"password is not provided","timestamp":"2023-03-25T21:17:52.798Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:17:52.799Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T21:17:52.799Z"}
+{"level":"error","message":"Error occurred: Cannot read properties of undefined (reading 'fieldname')","timestamp":"2023-03-25T21:19:04.056Z"}
+{"level":"error","message":"Error occurred: Cannot read properties of undefined (reading 'fieldname')","timestamp":"2023-03-25T21:19:18.222Z"}
+{"level":"error","message":"Error occurred: Unexpected token u in JSON at position 0","timestamp":"2023-03-25T21:19:35.297Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T21:26:13.256Z"}
+{"level":"error","message":"Error occurred: Users validation failed: phone: Path `phone` (`12312`) is shorter than the minimum allowed length (8).","timestamp":"2023-03-25T21:26:32.809Z"}
+{"level":"error","message":"Error occurred: Users validation failed: phone: Path `phone` (`12312`) is shorter than the minimum allowed length (8).","timestamp":"2023-03-25T21:26:40.733Z"}
+{"level":"error","message":"Error occurred: Users validation failed: phone: Path `phone` (`12312`) is shorter than the minimum allowed length (8).","timestamp":"2023-03-25T21:26:52.663Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:27:09.977Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T21:27:09.977Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:27:15.267Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:27:34.310Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:27:45.310Z"}
+{"level":"error","message":"Error occurred: Users validation failed: phone: Path `phone` (`12`) is shorter than the minimum allowed length (8).","timestamp":"2023-03-25T21:27:49.925Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T21:28:02.817Z"}
+{"level":"error","message":"Error occurred: inputs is not defined","timestamp":"2023-03-25T21:30:58.911Z"}
+{"level":"error","message":"Error occurred: logger is not defined","timestamp":"2023-03-25T21:31:57.405Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T21:36:21.028Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:36:41.709Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T21:36:41.710Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:36:47.471Z"}
+{"level":"error","message":"password is not provided","timestamp":"2023-03-25T21:36:51.840Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:36:51.841Z"}
+{"level":"error","message":"login is not provided","timestamp":"2023-03-25T21:37:01.931Z"}
+{"level":"error","message":"password is not provided","timestamp":"2023-03-25T21:37:01.932Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:37:01.933Z"}
+{"level":"error","message":"login is not provided","timestamp":"2023-03-25T21:37:09.617Z"}
+{"level":"error","message":"password is not provided","timestamp":"2023-03-25T21:37:09.617Z"}
+{"level":"error","message":"phone is not provided","timestamp":"2023-03-25T21:37:09.617Z"}
+{"level":"error","message":"avatar is not provided","timestamp":"2023-03-25T21:37:09.618Z"}
+{"level":"error","message":"Missing inputs: login,password,phone,avatar","timestamp":"2023-03-25T21:39:35.865Z"}
+{"level":"error","message":"Missing inputs: login ,password ,phone ,avatar ","timestamp":"2023-03-25T21:40:33.731Z"}
+{"level":"error","message":"Missing inputs:  login, password, phone, avatar","timestamp":"2023-03-25T21:40:43.019Z"}
+{"level":"error","message":"Missing inputs:  phone, avatar","timestamp":"2023-03-25T21:40:54.154Z"}
+{"level":"error","message":"Missing inputs:  phone","timestamp":"2023-03-25T21:40:57.992Z"}
+{"level":"error","message":"Missing inputs: ","timestamp":"2023-03-25T21:41:02.192Z"}
+{"level":"error","message":"Missing inputs:  phone","timestamp":"2023-03-25T21:42:10.289Z"}
+{"level":"error","message":"Missing inputs:  login, password, phone, avatar","timestamp":"2023-03-25T21:42:53.037Z"}
+{"level":"error","message":"Missing inputs:  login, password, phone, avatar","timestamp":"2023-03-25T21:44:38.252Z"}
+{"level":"error","message":"Error occurred: Users validation failed: phone: Path `phone` (`1231`) is shorter than the minimum allowed length (8).","timestamp":"2023-03-25T21:48:52.369Z"}
