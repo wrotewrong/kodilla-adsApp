@@ -274,3 +274,67 @@
 {"level":"warn","message":"Invalid request received","timestamp":"2023-03-25T22:10:34.232Z"}
 {"level":"warn","message":"Invalid request received","timestamp":"2023-03-25T22:11:14.283Z"}
 {"level":"warn","message":"Invalid request received","timestamp":"2023-03-25T22:11:53.142Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T13:33:02.197Z"}
+{"level":"info","message":"Logged in","timestamp":"2023-03-26T13:33:09.643Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T13:33:09.832Z"}
+{"level":"warn","message":"Invalid request received","timestamp":"2023-03-26T13:33:21.499Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T13:33:21.572Z"}
+{"level":"warn","message":"Invalid request received","timestamp":"2023-03-26T13:33:36.816Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T13:38:39.339Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T13:39:36.652Z"}
+{"level":"info","message":"Ad created with id: 64204e6cd9bedec3a46cb503","timestamp":"2023-03-26T13:53:48.981Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T13:53:51.081Z"}
+{"level":"info","message":"Logged in","timestamp":"2023-03-26T13:56:38.602Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T13:56:38.765Z"}
+{"level":"warn","message":"Invalid request received","timestamp":"2023-03-26T14:02:36.809Z"}
+{"level":"warn","message":"Invalid request received","timestamp":"2023-03-26T14:02:42.140Z"}
+{"level":"warn","message":"Invalid request received","timestamp":"2023-03-26T14:02:59.150Z"}
+{"level":"info","message":"Ad created with id: 64205185b09defbf9cddcf90","timestamp":"2023-03-26T14:07:01.302Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T14:07:05.483Z"}
+{"level":"info","message":"Logged in","timestamp":"2023-03-26T14:07:19.099Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T14:07:19.301Z"}
+{"level":"info","message":"Ad created with id: 642051b247804dcdc8cc1ba8","timestamp":"2023-03-26T14:07:46.658Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T14:07:48.038Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T14:08:11.770Z"}
+{"level":"info","message":"Ad created with id: 642051ccb3f4321754b0385d","timestamp":"2023-03-26T14:08:12.370Z"}
+{"level":"info","message":"Retrived ad with id 64205185b09defbf9cddcf90","timestamp":"2023-03-26T14:08:19.381Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T14:08:20.625Z"}
+{"level":"info","message":"Deleted ad with id: 64205185b09defbf9cddcf90","timestamp":"2023-03-26T14:08:20.975Z"}
+{"level":"info","message":"Retrived ad with id 642051b247804dcdc8cc1ba8","timestamp":"2023-03-26T14:08:22.667Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T14:08:24.029Z"}
+{"level":"info","message":"Deleted ad with id: 642051b247804dcdc8cc1ba8","timestamp":"2023-03-26T14:08:24.200Z"}
+{"level":"info","message":"Retrived ad with id 642051ccb3f4321754b0385d","timestamp":"2023-03-26T14:08:26.567Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T14:08:27.844Z"}
+{"level":"info","message":"Deleted ad with id: 642051ccb3f4321754b0385d","timestamp":"2023-03-26T14:08:28.054Z"}
+{"level":"info","message":"Retrived ad with id 64204e6cd9bedec3a46cb503","timestamp":"2023-03-26T14:08:41.490Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T14:11:20.776Z"}
+{"level":"info","message":"Retrived ad with id 64204e6cd9bedec3a46cb503","timestamp":"2023-03-26T14:11:22.557Z"}
+{"level":"info","message":"Logged in","timestamp":"2023-03-26T14:13:24.715Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T14:13:25.013Z"}
+{"level":"info","message":"Retrived ad with id 64204e6cd9bedec3a46cb503","timestamp":"2023-03-26T14:13:27.492Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T14:19:34.420Z"}
+{"level":"info","message":"Edited ad with id: 64204e6cd9bedec3a46cb503","timestamp":"2023-03-26T14:19:34.681Z"}
+{"level":"info","message":"Retrived ad with id 64204e6cd9bedec3a46cb503","timestamp":"2023-03-26T14:19:36.838Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T14:19:46.726Z"}
+{"level":"info","message":"Edited ad with id: 64204e6cd9bedec3a46cb503","timestamp":"2023-03-26T14:19:46.956Z"}
+{"level":"info","message":"Retrived ad with id 64204e6cd9bedec3a46cb503","timestamp":"2023-03-26T14:19:48.487Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T14:20:14.352Z"}
+{"level":"info","message":"Ad created with id: 6420549e5550861adc04a16a","timestamp":"2023-03-26T14:20:14.383Z"}
+{"level":"info","message":"Retrived ad with id 6420549e5550861adc04a16a","timestamp":"2023-03-26T14:20:16.158Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T14:20:26.172Z"}
+{"level":"info","message":"Edited ad with id: 6420549e5550861adc04a16a","timestamp":"2023-03-26T14:20:26.198Z"}
+{"level":"info","message":"Retrived ad with id 6420549e5550861adc04a16a","timestamp":"2023-03-26T14:20:27.615Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T14:20:30.994Z"}
+{"level":"info","message":"Edited ad with id: 6420549e5550861adc04a16a","timestamp":"2023-03-26T14:20:31.058Z"}
+{"level":"info","message":"Retrived ad with id 6420549e5550861adc04a16a","timestamp":"2023-03-26T14:20:32.150Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T14:20:36.062Z"}
+{"level":"info","message":"Edited ad with id: 6420549e5550861adc04a16a","timestamp":"2023-03-26T14:20:36.138Z"}
+{"level":"info","message":"Retrived ad with id 6420549e5550861adc04a16a","timestamp":"2023-03-26T14:23:48.920Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T14:24:39.438Z"}
+{"level":"info","message":"Edited ad with id: 6420549e5550861adc04a16a","timestamp":"2023-03-26T14:24:39.531Z"}
+{"level":"info","message":"Retrived ad with id 6420549e5550861adc04a16a","timestamp":"2023-03-26T14:25:55.117Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T14:25:57.456Z"}
+{"level":"info","message":"Deleted ad with id: 6420549e5550861adc04a16a","timestamp":"2023-03-26T14:25:57.523Z"}
+{"level":"info","message":"Retrived ad with id 64204e6cd9bedec3a46cb503","timestamp":"2023-03-26T14:25:59.054Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T14:26:00.820Z"}
+{"level":"info","message":"Deleted ad with id: 64204e6cd9bedec3a46cb503","timestamp":"2023-03-26T14:26:00.895Z"}
