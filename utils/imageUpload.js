@@ -1,4 +1,5 @@
 const multer = require('multer');
+const IMAGE_MAX_SIZE = require('../config');
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
@@ -10,6 +11,6 @@ const storage = multer.diskStorage({
   },
 });
 
-const imageUpload = multer({ storage, limits: { fileSize: 1000000 } });
+const imageUpload = multer({ storage, limits: { fileSize: IMAGE_MAX_SIZE } });
 
 module.exports = imageUpload;

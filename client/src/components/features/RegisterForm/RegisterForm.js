@@ -15,7 +15,6 @@ const RegisterForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(login, password, phone, avatar);
 
     const fd = new FormData();
     fd.append('login', login);
@@ -50,6 +49,8 @@ const RegisterForm = () => {
           setStatus('phoneFormatError');
         } else if (!avatar) {
           setStatus('imageError');
+        } else if (avatar.size > validationConfig.IMAGE_MAX_SIZE) {
+          setStatus('avatarSizeError');
         } else if (res.status === 400) {
           setStatus('clientError');
         } else if (res.status === 409) {
@@ -90,8 +91,8 @@ const RegisterForm = () => {
         <Alert variant='danger'>
           <Alert.Heading>Wrong login format</Alert.Heading>
           <p>
-            Login is required and it must consist of at least 5 and no more than
-            20 characters
+            {`Login is required and it must consist of at least ${validationConfig.LOGIN_MIN_LENGTH} and no more than
+            ${validationConfig.LOGIN_MAX_LENGTH} characters`}
           </p>
         </Alert>
       )}
@@ -100,8 +101,8 @@ const RegisterForm = () => {
         <Alert variant='danger'>
           <Alert.Heading>Wrong password format</Alert.Heading>
           <p>
-            Password is required and it must consist of at least 5 and no more
-            than 20 characters
+            {`Password is required and it must consist of at least ${validationConfig.PASSWORD_MIN_LENGTH} and no more
+            than ${validationConfig.PASSWORD_MAX_LENGTH} characters`}
           </p>
         </Alert>
       )}
@@ -110,8 +111,8 @@ const RegisterForm = () => {
         <Alert variant='danger'>
           <Alert.Heading>Wrong phone format</Alert.Heading>
           <p>
-            Phone is required and it must consist of at least 8 and no more than
-            20 characters
+            {`Phone is required and it must consist of at least ${validationConfig.PHONE_MIN_LENGTH} and no more than
+            ${validationConfig.PHONE_MAX_LENGTH} characters`}
           </p>
         </Alert>
       )}
@@ -120,6 +121,15 @@ const RegisterForm = () => {
         <Alert variant='danger'>
           <Alert.Heading>Avatar is missing</Alert.Heading>
           <p>You have to provide an image</p>
+        </Alert>
+      )}
+
+      {status === 'avatarSizeError' && (
+        <Alert variant='danger'>
+          <Alert.Heading>Avatar is too big</Alert.Heading>
+          <p>{`Image can't be bigger than ${
+            validationConfig.IMAGE_MAX_SIZE / 1000000
+          } MB`}</p>
         </Alert>
       )}
 

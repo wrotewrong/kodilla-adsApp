@@ -5,12 +5,15 @@ import { Link } from 'react-router-dom';
 const AdSummary = ({ _id, title, img, price, location }) => {
   return (
     <>
-      <div className='card col-12 col-sm-4 p-1 border border-primary rounded'>
+      <div
+        className='card col-12 col-sm-4 p-1 border border-primary rounded'
+        style={{ height: '450px' }}
+      >
         <img
           src={`${IMGS_URL}/${img}`}
           alt='product'
           className='card-img-top'
-          style={{ height: '100%', objectFit: 'cover' }}
+          style={{ height: '100%', objectFit: 'contain' }}
         />
         <div className='card-body'>
           <h5 className='card-title text-center'>{title}</h5>
