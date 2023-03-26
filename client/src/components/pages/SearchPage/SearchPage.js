@@ -17,8 +17,6 @@ const SearchPage = () => {
   const search = useSelector((state) => getAdsByPhrase(state, searchPhrase));
   const request = useSelector((state) => getRequest(state, LOAD_ADS));
 
-  console.log('search', request);
-
   useEffect(() => {
     dispatch(loadAdsRequest(null, searchPhrase));
   }, [dispatch, searchPhrase]);

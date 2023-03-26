@@ -22,8 +22,6 @@ const SingleAdPage = () => {
   const navigate = useNavigate();
   const request = useSelector((state) => getRequest(state, LOAD_ADS));
 
-  console.log('single', request);
-
   const handleDelete = () => {
     dispatch(deleteAdRequest(id));
     navigate('/');

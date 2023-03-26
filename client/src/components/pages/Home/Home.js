@@ -15,8 +15,6 @@ const Home = () => {
   const dispatch = useDispatch();
   const request = useSelector((state) => getRequest(state, LOAD_ADS));
 
-  console.log('home', request);
-
   useEffect(() => {
     dispatch(loadAdsRequest());
   }, [dispatch]);

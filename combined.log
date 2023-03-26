@@ -510,3 +510,26 @@
 {"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T16:46:48.454Z"}
 {"level":"warn","message":"Invalid request received","timestamp":"2023-03-26T16:46:52.927Z"}
 {"level":"warn","message":"Invalid request received","timestamp":"2023-03-26T16:47:52.038Z"}
+{"level":"warn","message":"Invalid request received","timestamp":"2023-03-26T16:48:49.150Z"}
+{"level":"warn","message":"Invalid request received","timestamp":"2023-03-26T16:48:53.805Z"}
+{"level":"warn","message":"Login: RandomMan is already taken","timestamp":"2023-03-26T16:48:58.981Z"}
+{"level":"info","message":"Add new user with id: 642077844df5bdab20e6fb98","timestamp":"2023-03-26T16:49:08.821Z"}
+{"level":"info","message":"Logged in","timestamp":"2023-03-26T16:49:12.701Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T16:49:12.812Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-26T16:49:21.717Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T16:49:23.359Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-26T16:49:24.536Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T16:49:25.968Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T16:49:45.631Z"}
+{"level":"info","message":"Ad created with id: 642077a94df5bdab20e6fb99","timestamp":"2023-03-26T16:49:45.675Z"}
+{"level":"info","message":"Retrived ad with id 642077a94df5bdab20e6fb99","timestamp":"2023-03-26T16:49:52.091Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T16:50:47.998Z"}
+{"level":"info","message":"Edited ad with id: 642077a94df5bdab20e6fb99","timestamp":"2023-03-26T16:50:48.102Z"}
+{"level":"info","message":"Retrived ad with id 642077a94df5bdab20e6fb99","timestamp":"2023-03-26T16:50:51.503Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T16:50:52.425Z"}
+{"level":"info","message":"Deleted ad with id: 642077a94df5bdab20e6fb99","timestamp":"2023-03-26T16:50:52.457Z"}
+{"level":"info","message":"The session has ended","timestamp":"2023-03-26T16:50:55.649Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T16:50:55.680Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T16:55:08.608Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-26T16:55:11.312Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-26T16:57:07.133Z"}
