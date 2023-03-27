@@ -3,8 +3,8 @@ import { useParams } from 'react-router';
 import { useDispatch, useSelector } from 'react-redux';
 import {
   getAdsByPhrase,
-  loadAdsRequest,
-  LOAD_ADS,
+  loadAdsSearchRequest,
+  LOAD_ADS_BY_SEARCH,
   getRequest,
 } from '../../../redux/adsRedux';
 import SearchForm from '../../features/SearchForm/SearchForm';
@@ -15,10 +15,10 @@ const SearchPage = () => {
   const { searchPhrase } = useParams();
   const dispatch = useDispatch();
   const search = useSelector((state) => getAdsByPhrase(state, searchPhrase));
-  const request = useSelector((state) => getRequest(state, LOAD_ADS));
+  const request = useSelector((state) => getRequest(state, LOAD_ADS_BY_SEARCH));
 
   useEffect(() => {
-    dispatch(loadAdsRequest(null, searchPhrase));
+    dispatch(loadAdsSearchRequest(searchPhrase));
   }, [dispatch, searchPhrase]);
 
   if (!request || !request.success) {

@@ -3,10 +3,11 @@ import { API_URL } from '../config';
 
 export const getAds = ({ ads }) => ads.data;
 
-export const getAdById = ({ ads }, id) => ads.data.find((ad) => ad._id === id);
+export const getAdById = ({ ads }, id) =>
+  ads.dataSingle.find((ad) => ad._id === id);
 
 export const getAdsByPhrase = ({ ads }, searchPhrase) =>
-  ads.data.filter((ad) =>
+  ads.dataSearch.filter((ad) =>
     ad.title.toLowerCase().includes(searchPhrase.toLowerCase())
   );
 
@@ -18,6 +19,8 @@ export const ADD_AD = createActionName('ADD_AD');
 export const EDIT_AD = createActionName('EDIT_AD');
 export const DELETE_AD = createActionName('DELETE_AD');
 export const LOAD_ADS = createActionName('LOAD_ADS');
+export const LOAD_AD_BY_ID = createActionName('LOAD_AD_BY_ID');
+export const LOAD_ADS_BY_SEARCH = createActionName('LOAD_ADS_BY_SEARCH');
 
 const START_REQUEST = createActionName('START_REQUEST');
 const END_REQUEST = createActionName('END_REQUEST');
@@ -29,6 +32,11 @@ export const addAd = (payload) => ({ payload, type: ADD_AD });
 export const editAd = (payload) => ({ payload, type: EDIT_AD });
 export const deleteAd = (payload) => ({ payload, type: DELETE_AD });
 export const loadAds = (payload) => ({ payload, type: LOAD_ADS });
+export const loadAdById = (payload) => ({ payload, type: LOAD_AD_BY_ID });
+export const loadAdsSearch = (payload) => ({
+  payload,
+  type: LOAD_ADS_BY_SEARCH,
+});
 
 export const startRequest = (payload) => ({ payload, type: START_REQUEST });
 export const endRequest = (payload) => ({ payload, type: END_REQUEST });
@@ -36,33 +44,43 @@ export const errorRequest = (payload) => ({ payload, type: ERROR_REQUEST });
 
 /* THUNKS */
 
-export const loadAdsRequest = (id, phrase) => {
+export const loadAdsRequest = () => {
   return async (dispatch) => {
     dispatch(startRequest({ name: LOAD_ADS }));
-    if (id) {
-      await fetch(`${API_URL}/ads/${id}`)
-        .then((res) => res.json())
-        .then((res) => {
-          dispatch(loadAds(res));
-        });
-    } else if (phrase) {
-      await fetch(`${API_URL}/ads/search/${phrase}`)
-        .then((res) => res.json())
-        .then((res) => {
-          if (res.empty?.length === 0) {
-            dispatch(loadAds(res.empty));
-          } else {
-            dispatch(loadAds(res));
-          }
-        });
-    } else {
-      await fetch(`${API_URL}/ads`)
-        .then((res) => res.json())
-        .then((res) => {
-          dispatch(loadAds(res));
-        });
-    }
-    dispatch(endRequest({ name: LOAD_ADS }));
+    await fetch(`${API_URL}/ads`)
+      .then((res) => res.json())
+      .then((res) => {
+        dispatch(loadAds(res));
+        dispatch(endRequest({ name: LOAD_ADS }));
+      });
+  };
+};
+
+export const loadAdByIdRequest = (id) => {
+  return async (dispatch) => {
+    dispatch(startRequest({ name: LOAD_AD_BY_ID }));
+    await fetch(`${API_URL}/ads/${id}`)
+      .then((res) => res.json())
+      .then((res) => {
+        dispatch(loadAdById(res));
+        dispatch(endRequest({ name: LOAD_AD_BY_ID }));
+      });
+  };
+};
+
+export const loadAdsSearchRequest = (phrase) => {
+  return async (dispatch) => {
+    dispatch(startRequest({ name: LOAD_ADS_BY_SEARCH }));
+    await fetch(`${API_URL}/ads/search/${phrase}`)
+      .then((res) => res.json())
+      .then((res) => {
+        if (res.empty?.length === 0) {
+          dispatch(loadAdsSearch(res.empty));
+        } else {
+          dispatch(loadAdsSearch(res));
+        }
+        dispatch(endRequest({ name: LOAD_ADS_BY_SEARCH }));
+      });
   };
 };
 
@@ -136,6 +154,8 @@ export const deleteAdRequest = (id) => {
 
 const initialState = {
   data: [],
+  dataSingle: [],
+  dataSearch: [],
   requests: {},
 };
 
@@ -158,7 +178,26 @@ export default function reducer(statePart = initialState, action = {}) {
         data: statePart.data.filter((ad) => ad._id !== action.payload),
       };
     case LOAD_ADS:
-      return { ...statePart, data: [...action.payload] };
+      return {
+        ...statePart,
+        dataSingle: [],
+        dataSearch: [],
+        data: [...action.payload],
+      };
+    case LOAD_AD_BY_ID:
+      return {
+        ...statePart,
+        dataSingle: [...action.payload],
+        dataSearch: [],
+        data: [],
+      };
+    case LOAD_ADS_BY_SEARCH:
+      return {
+        ...statePart,
+        dataSingle: [],
+        dataSearch: [...action.payload],
+        data: [],
+      };
     case START_REQUEST:
       return {
         ...statePart,

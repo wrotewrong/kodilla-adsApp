@@ -3,8 +3,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import {
   deleteAdRequest,
   getAdById,
-  loadAdsRequest,
-  LOAD_ADS,
+  loadAdByIdRequest,
+  LOAD_AD_BY_ID,
   getRequest,
 } from '../../../redux/adsRedux';
 import { IMGS_URL } from '../../../config';
@@ -20,7 +20,7 @@ const SingleAdPage = () => {
   const ad = useSelector((state) => getAdById(state, id));
   const user = useSelector(getUser);
   const navigate = useNavigate();
-  const request = useSelector((state) => getRequest(state, LOAD_ADS));
+  const request = useSelector((state) => getRequest(state, LOAD_AD_BY_ID));
 
   const handleDelete = () => {
     dispatch(deleteAdRequest(id));
@@ -28,7 +28,7 @@ const SingleAdPage = () => {
   };
 
   useEffect(() => {
-    dispatch(loadAdsRequest(id, null));
+    dispatch(loadAdByIdRequest(id));
   }, [dispatch, id]);
 
   if (!request || !request.success) {
@@ -44,12 +44,16 @@ const SingleAdPage = () => {
       <>
         <div className='mt-5 container'>
           <div className='row mt-5'>
-            <div className='col-12 col-lg-6 mt-3'>
+            <div className='col-12 col-lg-6 mt-3 text-center'>
               <img
                 src={`${IMGS_URL}/${ad?.img}`}
                 className='img-fluid'
                 alt='product'
-                style={{ height: '100%', objectFit: 'cover' }}
+                style={{
+                  height: '100%',
+                  maxHeight: '600px',
+                  objectFit: 'cover',
+                }}
               />
             </div>
             <div className='col-12 col-lg-6 mt-3'>
