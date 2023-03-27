@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
-const { TITLE_MIN_LENGTH } = require('../config');
-const { TITLE_MAX_LENGTH } = require('../config');
-const { TEXT_MIN_LENGTH } = require('../config');
-const { TEXT_MAX_LENGTH } = require('../config');
+const { TITLE_MIN_LENGTH } = require('../backendConfig');
+const { TITLE_MAX_LENGTH } = require('../backendConfig');
+const { TEXT_MIN_LENGTH } = require('../backendConfig');
+const { TEXT_MAX_LENGTH } = require('../backendConfig');
 
 const adsSchema = new mongoose.Schema({
   title: {

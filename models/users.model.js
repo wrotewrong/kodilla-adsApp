@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
-const { LOGIN_MIN_LENGTH } = require('../config');
-const { LOGIN_MAX_LENGTH } = require('../config');
-const { PHONE_MIN_LENGTH } = require('../config');
-const { PHONE_MAX_LENGTH } = require('../config');
+const { LOGIN_MIN_LENGTH } = require('../backendConfig');
+const { LOGIN_MAX_LENGTH } = require('../backendConfig');
+const { PHONE_MIN_LENGTH } = require('../backendConfig');
+const { PHONE_MAX_LENGTH } = require('../backendConfig');
 
 const usersSchema = new mongoose.Schema({
   login: {

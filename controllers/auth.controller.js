@@ -2,7 +2,10 @@ const Users = require('../models/users.model');
 const bcrypt = require('bcryptjs');
 const getImageFileType = require('../utils/getImageFileType');
 const removeImage = require('../utils/removeImage');
-const { PASSWORD_MIN_LENGTH, PASSWORD_MAX_LENGTH } = require('../config');
+const {
+  PASSWORD_MIN_LENGTH,
+  PASSWORD_MAX_LENGTH,
+} = require('../backendConfig');
 const winston = require('winston');
 
 const logger = winston.createLogger({
