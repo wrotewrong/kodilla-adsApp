@@ -533,3 +533,450 @@
 {"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T16:55:08.608Z"}
 {"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-26T16:55:11.312Z"}
 {"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-26T16:57:07.133Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-26T16:57:19.043Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T16:57:20.066Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-26T16:57:21.209Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T16:57:22.448Z"}
+{"level":"info","message":"Retrived ad with id 64206ba72fd45ccffce5fc57","timestamp":"2023-03-26T16:57:23.343Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T16:57:24.477Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-26T16:57:25.593Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T16:57:26.832Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-26T16:59:48.523Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T16:59:50.829Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-26T16:59:53.397Z"}
+{"level":"warn","message":"Invalid request received","timestamp":"2023-03-26T16:59:57.377Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T17:00:21.958Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T21:45:59.977Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T21:46:29.378Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-26T21:48:54.863Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T21:48:57.314Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-26T21:48:59.207Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T21:49:00.729Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-26T21:49:01.533Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T21:49:02.869Z"}
+{"level":"info","message":"Retrived ad with id 64206ba72fd45ccffce5fc57","timestamp":"2023-03-26T21:49:03.582Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T21:49:04.884Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-26T21:49:14.377Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T21:49:17.454Z"}
+{"level":"info","message":"Retrived ad with id 64206ba72fd45ccffce5fc57","timestamp":"2023-03-26T21:49:18.446Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T21:55:18.890Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-26T21:55:20.079Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T21:55:21.141Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-26T21:55:21.915Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T21:55:23.246Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-26T21:55:24.379Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T21:55:27.068Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-26T21:55:27.816Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T21:55:29.076Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-26T21:55:30.102Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T21:55:32.613Z"}
+{"level":"info","message":"Retrived ad with id 64206ba72fd45ccffce5fc57","timestamp":"2023-03-26T21:55:33.575Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-26T21:55:34.409Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T15:43:23.189Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T15:43:43.654Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T15:43:59.944Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T15:44:07.833Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T15:45:30.565Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T15:45:31.776Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T15:45:32.653Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T15:45:33.802Z"}
+{"level":"info","message":"Retrived ad with id 64206ba72fd45ccffce5fc57","timestamp":"2023-03-27T15:45:34.545Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T15:45:36.079Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T15:46:09.994Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T15:46:11.075Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T15:47:16.049Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T16:08:34.327Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T16:08:39.677Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T16:08:56.265Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T16:09:06.206Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T16:09:08.178Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T16:09:13.028Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T16:09:14.378Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T16:09:16.410Z"}
+{"level":"info","message":"Retrived ad containing phrase: bl","timestamp":"2023-03-27T16:09:18.174Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T16:09:20.096Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T16:10:14.204Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T16:10:15.519Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T16:10:16.935Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T16:10:17.978Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T16:10:19.013Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T16:47:08.620Z"}
+{"level":"info","message":"Retrived ad with id 64206ba72fd45ccffce5fc57","timestamp":"2023-03-27T16:47:16.481Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T16:47:18.646Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T16:48:30.763Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T16:48:59.844Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T16:49:03.013Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T16:49:05.170Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T16:50:03.787Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T16:50:06.993Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T16:50:08.789Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T16:50:34.426Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T17:02:38.022Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T17:02:39.676Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T17:02:45.173Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T17:02:48.324Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T17:02:49.331Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T17:02:50.469Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T17:03:18.614Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T17:03:21.520Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T17:03:23.647Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T17:03:35.020Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T17:03:40.376Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T17:04:28.277Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T17:05:10.831Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T17:08:08.979Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T18:28:30.166Z"}
+{"level":"info","message":"Retrived ad containing phrase: e","timestamp":"2023-03-27T18:29:56.067Z"}
+{"level":"info","message":"Retrived ad containing phrase: e","timestamp":"2023-03-27T18:31:17.705Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:05:57.712Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:09:36.789Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:09:39.207Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:17:51.173Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:17:53.185Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:24:15.793Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:24:16.141Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:24:38.326Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:24:38.375Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:25:24.549Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:25:24.571Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:25:43.757Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:25:43.768Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:25:48.427Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:25:48.485Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:27:26.028Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:27:26.081Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:27:29.353Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:27:32.604Z"}
+{"level":"info","message":"Retrived ad with id 64206ba72fd45ccffce5fc57","timestamp":"2023-03-27T19:27:33.837Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:27:39.641Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T19:27:41.357Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:27:42.813Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:27:43.649Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:27:44.729Z"}
+{"level":"info","message":"Retrived ad with id 64206ba72fd45ccffce5fc57","timestamp":"2023-03-27T19:27:45.668Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:27:46.720Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:29:20.358Z"}
+{"level":"info","message":"Retrived ad with id 64206ba72fd45ccffce5fc57","timestamp":"2023-03-27T19:29:22.146Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:29:25.422Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:29:26.594Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:29:28.060Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T19:29:28.899Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:29:29.922Z"}
+{"level":"info","message":"Retrived ad containing phrase: bla","timestamp":"2023-03-27T19:29:46.751Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:29:49.281Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:30:45.874Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:30:46.623Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:30:57.668Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:30:58.078Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:31:05.697Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:31:06.874Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:31:08.200Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:31:09.102Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:31:10.253Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:31:14.644Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:31:21.906Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:31:27.284Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:31:35.431Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:31:36.839Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:31:41.498Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:31:43.498Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:31:46.176Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:31:47.796Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:31:49.606Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:31:51.486Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:31:53.707Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:32:29.001Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:32:30.386Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:32:38.234Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:32:39.428Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:32:41.462Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:36:51.035Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:36:52.771Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:36:55.528Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:36:56.830Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:37:03.061Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:37:04.302Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:38:27.556Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:38:27.824Z"}
+{"level":"info","message":"Retrived ad containing phrase: bl","timestamp":"2023-03-27T19:40:09.301Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:40:12.713Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T19:40:13.818Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:40:14.885Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T19:40:16.611Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:40:17.965Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:40:19.018Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:40:20.037Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T19:40:20.728Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:40:22.536Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:47:47.940Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:47:51.688Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:48:02.921Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:48:05.888Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:48:07.249Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T19:48:08.474Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:48:09.741Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:48:10.695Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:48:11.892Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T19:48:12.972Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:48:14.476Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:48:29.732Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:49:10.984Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:49:11.013Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:49:21.004Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:49:22.262Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:49:24.245Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:49:26.588Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:49:31.068Z"}
+{"level":"info","message":"Retrived ad with id 64206ba72fd45ccffce5fc57","timestamp":"2023-03-27T19:49:32.093Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:49:33.231Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:50:47.590Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:50:48.107Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:51:06.735Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:51:06.976Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:51:10.148Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:51:16.799Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:51:18.082Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:51:19.867Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T19:51:21.152Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:51:22.378Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:51:23.860Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:51:27.767Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:51:32.037Z"}
+{"level":"info","message":"Retrived ad containing phrase: bl","timestamp":"2023-03-27T19:51:35.991Z"}
+{"level":"info","message":"Retrived ad containing phrase: bl","timestamp":"2023-03-27T19:52:10.426Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:52:10.453Z"}
+{"level":"info","message":"Retrived ad containing phrase: bl","timestamp":"2023-03-27T19:52:23.938Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:52:23.950Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:52:31.560Z"}
+{"level":"info","message":"Retrived ad containing phrase: bl","timestamp":"2023-03-27T19:52:31.572Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:52:37.754Z"}
+{"level":"info","message":"Retrived ad containing phrase: bl","timestamp":"2023-03-27T19:52:37.801Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:52:42.321Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:52:44.705Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:53:07.416Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T19:53:09.719Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:53:11.675Z"}
+{"level":"info","message":"Retrived ad containing phrase: bl","timestamp":"2023-03-27T19:53:15.164Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:53:16.563Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:53:38.120Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:53:39.752Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:53:41.320Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:53:42.218Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:53:43.208Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:53:44.253Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:53:45.311Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:53:46.218Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:54:20.407Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:54:25.504Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:54:26.719Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:54:27.729Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:54:28.625Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:54:29.903Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T19:54:30.978Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:54:32.330Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:54:49.284Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:54:52.841Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:54:58.175Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:58:46.563Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:58:46.573Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:58:48.449Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:58:49.847Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:58:51.897Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T19:58:52.851Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:59:00.862Z"}
+{"level":"info","message":"Retrived ad with id 64206ba72fd45ccffce5fc57","timestamp":"2023-03-27T19:59:02.530Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:59:03.629Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:59:04.298Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:59:05.371Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T19:59:06.573Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:59:07.981Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:59:35.234Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:59:37.483Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:59:39.387Z"}
+{"level":"info","message":"Retrived ad containing phrase: bla","timestamp":"2023-03-27T19:59:42.161Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:59:44.881Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:59:46.013Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:59:47.083Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T19:59:49.217Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T19:59:56.256Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T19:59:59.127Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:00:01.898Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T20:00:02.893Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:00:04.072Z"}
+{"level":"info","message":"Retrived ad containing phrase: bl","timestamp":"2023-03-27T20:00:05.663Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:00:06.916Z"}
+{"level":"warn","message":"There are no ads containing phrase: as","timestamp":"2023-03-27T20:00:09.578Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:00:13.587Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:00:47.184Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:00:49.208Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T20:00:50.933Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:00:54.526Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T20:00:55.450Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:00:56.696Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:00:57.510Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:00:58.656Z"}
+{"level":"info","message":"Retrived ad with id 64206ba72fd45ccffce5fc57","timestamp":"2023-03-27T20:01:00.412Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:01:01.763Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:01:03.350Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:01:21.549Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:01:26.163Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:01:32.189Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:01:35.186Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:01:38.839Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:01:43.245Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:01:44.322Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:01:45.398Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T20:01:46.294Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:01:47.301Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:01:48.163Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:01:49.315Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:02:05.618Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:02:07.229Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:02:17.442Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:04:46.079Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:04:48.122Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:07:38.864Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:11:39.654Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:11:42.214Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:11:44.261Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T20:11:45.736Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:11:48.363Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:11:49.906Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:11:53.574Z"}
+{"level":"info","message":"Retrived ad with id 64206ba72fd45ccffce5fc57","timestamp":"2023-03-27T20:11:54.766Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:16:06.422Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:16:08.026Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:16:09.185Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:16:09.992Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:16:15.071Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:16:18.477Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:16:21.139Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:20:30.157Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:20:31.761Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:20:33.358Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:20:36.267Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T20:20:37.954Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:20:39.254Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:20:40.134Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:20:41.652Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T20:20:42.495Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:20:43.494Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:20:44.177Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:20:45.101Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T20:20:46.023Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:20:47.222Z"}
+{"level":"info","message":"Retrived ad with id 64206ba72fd45ccffce5fc57","timestamp":"2023-03-27T20:20:52.899Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:20:54.261Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:20:55.887Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:20:57.389Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T20:21:00.128Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:21:00.919Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:21:27.527Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:21:30.970Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T20:21:32.298Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:21:33.468Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:21:34.974Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:21:36.578Z"}
+{"level":"info","message":"Retrived ad containing phrase: bl","timestamp":"2023-03-27T20:21:38.171Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:22:02.460Z"}
+{"level":"info","message":"Retrived ad containing phrase: bl","timestamp":"2023-03-27T20:22:08.145Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:22:17.857Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:22:20.998Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T20:22:21.844Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:22:23.689Z"}
+{"level":"info","message":"Retrived ad containing phrase: bl","timestamp":"2023-03-27T20:22:33.654Z"}
+{"level":"info","message":"Retrived ad containing phrase: bl","timestamp":"2023-03-27T20:22:36.762Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:25:30.432Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:26:03.070Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:27:15.828Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:27:17.051Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T20:27:17.674Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:27:18.558Z"}
+{"level":"info","message":"Retrived ad with id 64206ba72fd45ccffce5fc57","timestamp":"2023-03-27T20:27:19.680Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:27:20.470Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:27:21.588Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:27:23.883Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:27:25.378Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:27:31.925Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:27:33.040Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:27:34.420Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:27:38.382Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:28:23.885Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:28:24.412Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:28:26.468Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:28:27.672Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:28:34.565Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:28:34.615Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:28:36.599Z"}
+{"level":"info","message":"Retrived ad with id 64206ba72fd45ccffce5fc57","timestamp":"2023-03-27T20:28:37.604Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:28:38.998Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T20:28:39.819Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:28:40.808Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:28:41.727Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:29:11.328Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:29:11.339Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:29:19.401Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:29:21.152Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:29:22.708Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:29:51.781Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:29:52.673Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:30:03.334Z"}
+{"level":"info","message":"Retrived ad with id 64206ba72fd45ccffce5fc57","timestamp":"2023-03-27T20:30:04.340Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:30:10.931Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:30:14.959Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:31:09.397Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:31:18.054Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:31:20.747Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:31:33.836Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:31:33.884Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:33:20.815Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:33:21.247Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:33:22.559Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:33:27.395Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:33:33.913Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:33:35.944Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:34:34.723Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:34:35.105Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:34:57.800Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:34:58.090Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:35:06.755Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:35:06.766Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:35:11.280Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:35:11.536Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:35:15.680Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:35:15.708Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:35:32.112Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:35:32.159Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:35:44.309Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:35:45.387Z"}
+{"level":"warn","message":"Invalid request received","timestamp":"2023-03-27T20:36:10.647Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:36:12.854Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:36:14.529Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:36:15.894Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T20:36:16.894Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:36:17.844Z"}
+{"level":"info","message":"Retrived ad with id 64206ba72fd45ccffce5fc57","timestamp":"2023-03-27T20:36:18.584Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:36:19.453Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:36:20.166Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:36:20.993Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:36:35.249Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:36:38.042Z"}
+{"level":"info","message":"Retrived ad with id 642070eb6619bec7f466eecc","timestamp":"2023-03-27T20:36:39.769Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:36:40.872Z"}
+{"level":"info","message":"Retrived ad with id 64206ee3934f812e4c639647","timestamp":"2023-03-27T20:36:41.716Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:36:42.603Z"}
+{"level":"warn","message":"There are no ads containing phrase: x","timestamp":"2023-03-27T20:36:44.174Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:36:45.555Z"}
+{"level":"info","message":"Retrived ad containing phrase: bl","timestamp":"2023-03-27T20:36:46.853Z"}
+{"level":"info","message":"Retrived ad with id 64207534e34243d6a03eb8c6","timestamp":"2023-03-27T20:36:48.832Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:36:49.679Z"}
+{"level":"info","message":"Retrived ad containing phrase: bl","timestamp":"2023-03-27T20:36:55.376Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:37:40.967Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:37:44.010Z"}
+{"level":"info","message":"Retrived ad containing phrase: bl","timestamp":"2023-03-27T20:37:47.036Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:37:48.662Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:37:49.470Z"}
+{"level":"info","message":"Retrived ad containing phrase: bl","timestamp":"2023-03-27T20:37:51.522Z"}
+{"level":"warn","message":"There are no ads containing phrase: x","timestamp":"2023-03-27T20:37:53.398Z"}
+{"level":"info","message":"Retrived all ads","timestamp":"2023-03-27T20:37:58.287Z"}
+{"level":"info","message":"Retrived ad containing phrase: bl","timestamp":"2023-03-27T20:38:00.496Z"}
