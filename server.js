@@ -30,14 +30,14 @@ app.use(express.json());
 app.use(express.urlencoded({ extends: false }));
 
 // app.use(cors());
-if (process.env.NODE_ENV !== 'production') {
-  app.use(
-    cors({
-      origin: ['http://localhost:3000'],
-      credentials: true,
-    })
-  );
-}
+// if (process.env.NODE_ENV !== 'production') {
+app.use(
+  cors({
+    // origin: ['http://localhost:3000'],
+    credentials: true,
+  })
+);
+// }
 
 let dbUri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@kodilla-adsapp.kqzdw7r.mongodb.net/adsApp?retryWrites=true&w=majority`;
 
