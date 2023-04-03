@@ -102,3 +102,4 @@
 {"level":"error","message":"Missing inputs:  login, password, phone, avatar","timestamp":"2023-03-25T21:42:53.037Z"}
 {"level":"error","message":"Missing inputs:  login, password, phone, avatar","timestamp":"2023-03-25T21:44:38.252Z"}
 {"level":"error","message":"Error occurred: Users validation failed: phone: Path `phone` (`1231`) is shorter than the minimum allowed length (8).","timestamp":"2023-03-25T21:48:52.369Z"}
+{"level":"error","message":"Error occurred: ENOENT: no such file or directory, unlink 'C:\\Users\\a\\Desktop\\kurs kodilla JS\\zadania\\moduł 32 - warsztaty - backend\\zadanie 1 - adsApp/public/uploads/jeansBlue-1680542587362.jpg'","timestamp":"2023-04-03T17:27:35.148Z"}
