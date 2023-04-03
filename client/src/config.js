@@ -3,8 +3,8 @@ export const API_URL =
 
 export const IMGS_URL =
   process.env.NODE_ENV === 'production'
-    ? '/uploads/'
-    : 'http://localhost:8000/uploads/';
+    ? '/uploads'
+    : 'http://localhost:8000/uploads';
 
 export const validationConfig = {
   LOGIN_MIN_LENGTH: 5,

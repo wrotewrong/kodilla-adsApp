@@ -30,24 +30,40 @@ app.use(express.json());
 app.use(express.urlencoded({ extends: false }));
 
 // app.use(cors());
-// if (process.env.NODE_ENV !== 'production') {
-app.use(
-  cors({
-    // origin: ['http://localhost:3000'],
-    credentials: true,
-  })
-);
-// }
+if (process.env.NODE_ENV !== 'production') {
+  app.use(
+    cors({
+      origin: ['http://localhost:3000'],
+      credentials: true,
+    })
+  );
+}
 
 let dbUri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@kodilla-adsapp.kqzdw7r.mongodb.net/adsApp?retryWrites=true&w=majority`;
 
 app.use(
+  // session({
+  //   secret: process.env.SESSION_SECRET,
+  //   cookie: {
+  //     secure: process.env.NODE_ENV == 'production',
+  //   },
+  //   store: MongoStore.create({ mongoUrl: dbUri }),
+  //   resave: false,
+  //   saveUninitialized: false,
+  // })
   session({
     secret: process.env.SESSION_SECRET,
-    cookie: {
-      secure: process.env.NODE_ENV == 'production',
-    },
-    store: MongoStore.create({ mongoUrl: dbUri }),
+    store: MongoStore.create({
+      mongoUrl: dbUri,
+      mongoOptions: {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+      },
+      collectionName: 'sessions',
+      cookie: {
+        secure: process.env.NODE_ENV == 'production',
+      },
+    }),
     resave: false,
     saveUninitialized: false,
   })

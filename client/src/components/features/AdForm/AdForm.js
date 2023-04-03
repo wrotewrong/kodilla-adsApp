@@ -138,11 +138,10 @@ const AddForm = (props) => {
             {...register('picture', {
               validate: validateImageSize,
             })}
-            {...(props.action === 'add' && {
-              ...register('picture', {
+            {...(props.action === 'add' &&
+              register('picture', {
                 required: true,
-              }),
-            })}
+              }))}
             type='file'
             onChange={(e) => setImg(e.target.files[0])}
             accept='image/png, image/gif, image/jpeg'

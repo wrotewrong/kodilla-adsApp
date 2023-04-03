@@ -104,7 +104,7 @@ exports.add = async (req, res) => {
         img: img.filename,
         price,
         location,
-        user: await User.findById(req.session.user.id).populate('user'),
+        user: await User.findById(req.session.user.id).select('-password'),
       });
       await newAd.save();
       logger.info(`Ad created with id: ${newAd._id}`);
